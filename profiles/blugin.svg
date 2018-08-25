@@ -26,7 +26,7 @@
         "/>
         <g id="grass-shadow">
             <path id="grass-shadow-1" fill-opacity=".12" d="
-                M 0,256
+                M 0,255
                 l 171,-100  l 171,100
                 l 171,-100  l 171,100
                 l 170,-100  l 170,100
