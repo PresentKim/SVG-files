@@ -25,7 +25,7 @@
             l 0,-330
         "/>
         <g id="grass-shadow">
-            <path id="grass-shadow-1" fill-opacity=".12" d="
+            <path id="grass-shadow-1" fill="#28b162" d="
                 M 0,255
                 l 171,-100  l 171,100
                 l 171,-100  l 171,100
@@ -35,7 +35,7 @@
                 l -171,-120  l -171,120
                 l -171,-130  l -171,130
             "/>
-            <path id="grass-shadow-2" fill-opacity="0.11" d="
+            <path id="grass-shadow-2" fill-opacity="0.1" d="
                 M 0,320
                 l 171,-130  l 171,130
                 l 171,-120  l 171,120
@@ -47,7 +47,7 @@
             "/>
         </g>
         <g id="grass-particle">
-            <g id="grass-particle-1" fill-opacity="0.04">
+            <g id="grass-particle-1" fill="#2dc46c">
                 <path d="
                     M377.837734 234.051627l-36.74537 21.568016-72.691832-43.135858 125.413595-25.561864-15.976394 47.129706
                 "/>
@@ -64,7 +64,7 @@
                     M922.627276 49.526172l92.662073 31.153748-72.691832 64.7037-19.970242-95.857448
                 "/>
             </g>
-            <g id="grass-particle-2" fill-opacity="0.08">
+            <g id="grass-particle-2" fill="#2bbb67">
                 <path d="
                     M 34.348905 235.649401L0 255.619643 L0 197.3063 l34.348905 38.343101
                 "/>
