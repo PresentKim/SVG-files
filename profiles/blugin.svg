@@ -15,10 +15,10 @@
     <g id="grass">
         <path id="grass-background" fill="#2ecc71" d="
             M 0,0       l 0,320
-            l 170,-130  l 170,130
-            l 170,-120  l 170,120
-            l 170,-120  l 174 130
-            L 1024,0
+            l 171,-130  l 171,130
+            l 171,-120  l 171,120
+            l 170,-120  l 170 130
+            l 0,-310
         "/>
         <g id="grass-particle">
             <path fill="#2cc46c"
