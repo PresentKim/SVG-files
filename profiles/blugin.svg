@@ -17,6 +17,15 @@
         </g>
     </g>
     <g id="grass">
+        <!--
+        [Grass Color Info]
+        "grass-background" #2ecc71 = hsv(145°, 77%, 80%)
+        "grass-shadow-1"   #28b162 = hsv(145°, 77%, 69%)
+        "grass-particle-1" #2dc46c = hsv(145°, 77%, 77%)
+        "grass-particle-2" #2bbb67 = hsv(145°, 77%, 73%)
+        "grass-particle-3" #30d475 = hsv(145°, 77%, 83%)
+        "grass-top"        #31d978 = hsv(145°, 77%, 85%)
+        -->
         <path id="grass-background" fill="#2ecc71" d="
             M 0,0       l 0,320
             l 171,-130  l 171,130
