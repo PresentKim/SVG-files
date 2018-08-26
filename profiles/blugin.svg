@@ -20,7 +20,7 @@
         <!--
         [Grass Color Info]
         "grass-background" #2ecc71 = hsv(145°, 77%, 80%)
-        "grass-shadow-1"   #28b162 = hsv(145°, 77%, 69%)
+        "grass-bottom"     #28b162 = hsv(145°, 77%, 69%)
         "grass-particle-1" #2bbb67 = hsv(145°, 77%, 73%)
         "grass-particle-2" #2dc46c = hsv(145°, 77%, 77%)
         "grass-particle-3" #30d475 = hsv(145°, 77%, 83%)
@@ -33,28 +33,26 @@
             l 170,-120  l 170 130
             l 0,-330
         "/>
-        <g id="grass-shadow">
-            <path id="grass-shadow-1" fill="#28b162" d="
-                M 0,255
-                l 171,-100  l 171,100
-                l 171,-100  l 171,100
-                l 170,-100  l 170,100
-                l 0,75
-                l -170,-130  l -170,120
-                l -171,-120  l -171,120
-                l -171,-130  l -171,130
-            "/>
-            <path id="grass-shadow-2" fill-opacity="0.1" d="
-                M 0,320
-                l 171,-130  l 171,130
-                l 171,-120  l 171,120
-                l 170,-120  l 170,130
-                l 0,85
-                l -170,-170 l -170,170
-                l -171,-170 l -171,170
-                l -171,-170 l -171,170
-            "/>
-        </g>
+        <path id="grass-bottom" fill="#28b162" d="
+            M 0,255
+            l 171,-100  l 171,100
+            l 171,-100  l 171,100
+            l 170,-100  l 170,100
+            l 0,75
+            l -170,-130  l -170,120
+            l -171,-120  l -171,120
+            l -171,-130  l -171,130
+        "/>
+        <path id="grass-shadow" fill-opacity="0.1" d="
+            M 0,320
+            l 171,-130  l 171,130
+            l 171,-120  l 171,120
+            l 170,-120  l 170,130
+            l 0,85
+            l -170,-170 l -170,170
+            l -171,-170 l -171,170
+            l -171,-170 l -171,170
+        "/>
         <g id="grass-particle">
             <g id="grass-particle-1" fill="#2bbb67">
                 <path d="M 0,255     l 0,-58    l 34,38          "/>
