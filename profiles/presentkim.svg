@@ -2,11 +2,11 @@
 	<rect id="background" fill="#71c9f1" width="1024" height="1024"/>
 	<g id="circles" fill="#ffffff">
 		<circle cx="256" cy="256" r="150"/>
-		<path d="m 256,768 512,32 0,-64"/>
+		<path d="M256,768	l512,32		l0,-64"/>
 		<circle cx="768" cy="256" r="130"/>
-		<path d="m 768,768 32,-512 -64,0"/>
+		<path d="M768,768	l32,-512	l-64,0"/>
 		<circle cx="768" cy="768" r="110"/>
-		<path d="m 768,256 -512,32 0,-64"/>
+		<path d="M768,256	l-512,32	l0,-64"/>
 		<circle cx="256" cy="768" r="100"/>
 	</g>
 </svg>
