@@ -1,182 +1,180 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
-    <g id="dirt">
-        <!--
-        [Dirt Color Info]
-
-        "dirt-background" #bb8044 = hsv(30°, 64%, 73%)
-
-        "dirt-particle-1" #9f6c39 = hsv(30°, 64%, 62%)
-        "dirt-particle-2" #b17940 = hsv(30°, 64%, 69%)
-        "dirt-particle-3" #c48647 = hsv(30°, 64%, 77%)
-        "dirt-particle-4" #cd8c4a = hsv(30°, 64%, 80%)
-        -->
-        <rect id="dirt-background" fill="#bb8044" width="1024" height="1024"/>
-        <g id="dirt-particle">
-            <g id="dirt-particle-1" fill="#9f6c39">
-                <path d="
-                    M 440,920  l -155,-35
-                    l 30,-155  l 155,35
-                "/>
-                <path d="
-                    M 860,380  l -60,65
-                    l -65,-60  l 60,-65
-                "/>
-            </g>
-            <g id="dirt-particle-2" fill="#b17940">
-                <path d="
-                    M 720,480  l 55,70
-                    l -70,55   l -55,-70
-                "/>
-                <path d="
-                    M 620,1024 l 10,-80
-                    l 150,20   l -10,60
-                "/>
-                <path d="
-                    M 1024,280  l -100,20
-                    l -30,-120  l 120,-30
-                "/>
-                <path d="
-                    M 570,570   l -120,40
-                    l -40,-120  l 120,-40
-                "/>
-                <path d="
-                    M 175,310  l 160,40
-                    l -40,160  l -160,-40
-                "/>
-                <path d="
-                    M 850,480  l 80,30
-                    l -30,80   l -80,-30
-                "/>
-                <path d="
-                    M 680,710  l 120,-40
-                    l 40,120   l -120,40
-                "/>
-                <path d="
-                    M 880,790  l 90,10
-                    l -10,90   l -90,-10
-                "/>
-            </g>
-            <g id="dirt-particle-3" fill="#c48647">
-                <path d="
-                    M 0,550  l 30,0
-                    l 10,90  l -40,0
-                "/>
-                <path d="
-                    M 1024,640  l -40,5
-                    l -10,-90   l 50,-5
-                "/>
-                <path d="
-                    M 500,300  l 90,10
-                    l -10,90   l -90,-10
-                "/>
-                <path d="
-                    M 240,800  l -70,20
-                    l -20,-70  l 70,-20
-                "/>
-            </g>
-            <g id="dirt-particle-4" fill="#cd8c4a">
-                <path d="
-                    M 170,560  l 70,50
-                    l -50,70   l -70,-50
-                "/>
-                <path d="
-                    M 130,980  l -90,10
-                    l -10,-90   l 90,-10
-                "/>
-                <path d="
-                    M 510,770  l 80,-40
-                    l 40,80    l -80,40
-                "/>
-            </g>
-        </g>
-    </g>
-    <g id="grass">
-        <!--
-        [Grass Color Info]
-        "grass-background" #2ecc71 = hsv(145°, 77%, 80%)
-        "grass-bottom"     #28b162 = hsv(145°, 77%, 69%)
-        "grass-particle-1" #2bbb67 = hsv(145°, 77%, 73%)
-        "grass-particle-2" #2dc46c = hsv(145°, 77%, 77%)
-        "grass-particle-3" #30d475 = hsv(145°, 77%, 83%)
-        "grass-top"        #31d978 = hsv(145°, 77%, 85%)
-        -->
-        <path id="grass-background" fill="#2ecc71" d="
-            M 0,0       l 0,320
-            l 171,-130  l 171,130
-            l 171,-120  l 171,120
-            l 170,-120  l 170 130
-            l 0,-330
-        "/>
-        <path id="grass-bottom" fill="#28b162" d="
-            M 0,255
-            l 171,-100  l 171,100
-            l 171,-100  l 171,100
-            l 170,-100  l 170,100
-            l 0,75
-            l -170,-130  l -170,120
-            l -171,-120  l -171,120
-            l -171,-130  l -171,130
-        "/>
-        <path id="grass-shadow" fill-opacity="0.1" d="
-            M 0,320
-            l 171,-130  l 171,130
-            l 171,-120  l 171,120
-            l 170,-120  l 170,130
-            l 0,85
-            l -170,-170 l -170,170
-            l -171,-170 l -171,170
-            l -171,-170 l -171,170
-        "/>
-        <g id="grass-particle">
-            <g id="grass-particle-1" fill="#2bbb67">
-                <path d="M 0,255     l 0,-58    l 34,38          "/>
-                <path d="M 598,205   l 94,0     l -22,42         "/>
-                <path d="M 1024,255  l -24,-14  l 15,-52  l 10,10"/>
-            </g>
-            <g id="grass-particle-2" fill="#2dc46c">
-                <path d="M 342,255  l 36,-21   l 15,-47    l -123,26          "/>
-                <path d="M 318,136  l -20,-96  l 93,31     l -73,65           "/>
-                <path d="M 625,32   l -20,70   l -60,-70   l 80,0             "/>
-                <path d="M 854,155  l 25,15    l -37,-132  l -110,110  l 90,26"/>
-                <path d="M 920,50   l 95,30    l -75,65    l -20,-95          "/>
-            </g>
-            <path id="grass-particle-3" fill="#30d475" d="M 75 32  l 75 124  l 75 -124"/>
-        </g>
-        <path id="grass-top" fill="#31d978" d="
-            M 0,0  l 0,32   l 1024,0
-                   l 0,-32  l -1024,0
-        "/>
-    </g>
-    <g id="coal">
-        <!--
-        [Coal Color Info]
-        "coal-top"    #666666 = hsv(0°, 0%, 40%)
-        "coal-bottom" #565656 = hsv(0°, 0%, 34%)
-        -->
-        <g id="coal-shadow" fill-opacity=".1">
-            <path d="M 345,405  l 5,0    l -10,70    l -70,10    l -30,-65  l 15,-0  l 15,35"/>
-            <path d="M 400,605  l 10,25  l -95,75    l -105,-70  l 20,-15                   "/>
-            <path d="M 705,465  l 20,5   l -110,150  l -175,-55  l 0,-30                    "/>
-            <path d="M 640,775  l 20,25  l -240,105  l -15,-160  l 15,0                     "/>
-            <path d="M 280,790  l 40,70  l 30,-30    l 10,20     l -50,50   l -50,-110      "/>
-            <path d="M 820,555  l 10,30  l -70,10    l -25,-70   l 10,-10                   "/>
-            <path d="M 795,630  l 10,0   l -55,160   l -90,-60   l 10,-25                   "/>
-        </g>
-        <g id="coal-particle" fill="#666666">
-            <path d="M 315,380  l -50,75   l -30,-65             "/>
-            <path d="M 315,380  l -50,75   l 70,-10    l 15,-70  " fill="#565656"/>
-            <path d="M 270,560  l 145,35   l -45,-115            "/>
-            <path d="M 270,560  l 145,35   l -100,80   l -100,-70" fill="#565656"/>
-            <path d="M 440,500  l 285,-55  l -275,-95            "/>
-            <path d="M 440,500  l 285,-55  l -110,145  l -175,-55" fill="#565656"/>
-            <path d="M 405,730  l 240,10   l -90,-100  l -152,70 "/>
-            <path d="M 405,730  l 240,10   l 20,20     l -245,110" fill="#565656"/>
-            <path d="M 280,795  l 75,5     l -20,-45   l -70,5   "/>
-            <path d="M 280,795  l 75,5     l 10,20     l -55,50  " fill="#565656"/>
-            <path d="M 735,500  l 85,15    l -30,-65             "/>
-            <path d="M 735,500  l 85,15    l 20,45     l -80,5   " fill="#565656"/>
-            <path d="M 665,685  l 115,-10  l 20,-60    l -105,-10"/>
-            <path d="M 665,685  l 115,-10  l -35,95    l -90,-60 " fill="#565656"/>
-        </g>
-    </g>
+	<g id="dirt">
+		<!--
+			[Dirt Color Info]
+				"dirt-background"	#bb8044 = hsv(30°, 64%, 73%)
+				"dirt-particle-1"	#9f6c39 = hsv(30°, 64%, 62%)
+				"dirt-particle-2"	#b17940 = hsv(30°, 64%, 69%)
+				"dirt-particle-3"	#c48647 = hsv(30°, 64%, 77%)
+				"dirt-particle-4"	#cd8c4a = hsv(30°, 64%, 80%)
+		-->
+		<rect id="dirt-background" fill="#bb8044" width="1024" height="1024"/>
+		<g id="dirt-particle">
+			<g id="dirt-particle-1" fill="#9f6c39">
+				<path d="
+					M 440,920	l -155,-35
+					l 30,-155	l 155,35
+				"/>
+				<path d="
+					M 860,380	l -60,65
+					l -65,-60	l 60,-65
+				"/>
+			</g>
+			<g id="dirt-particle-2" fill="#b17940">
+				<path d="
+					M 720,480	l 55,70
+					l -70,55	l -55,-70
+				"/>
+				<path d="
+					M 620,1024	l 10,-80
+					l 150,20	l -10,60
+				"/>
+				<path d="
+					M 1024,280	l -100,20
+					l -30,-120	l 120,-30
+				"/>
+				<path d="
+					M 570,570	l -120,40
+					l -40,-120	l 120,-40
+				"/>
+				<path d="
+					M 175,310	l 160,40
+					l -40,160	l -160,-40
+				"/>
+				<path d="
+					M 850,480	l 80,30
+					l -30,80	l -80,-30
+				"/>
+				<path d="
+					M 680,710	l 120,-40
+					l 40,120	l -120,40
+				"/>
+				<path d="
+					M 880,790	l 90,10
+					l -10,90	l -90,-10
+				"/>
+			</g>
+			<g id="dirt-particle-3" fill="#c48647">
+				<path d="
+					M 0,550		l 30,0
+					l 10,90		l -40,0
+				"/>
+				<path d="
+					M 1024,640	l -40,5
+					l -10,-90	l 50,-5
+				"/>
+				<path d="
+					M 500,300	l 90,10
+					l -10,90	l -90,-10
+				"/>
+				<path d="
+					M 240,800	l -70,20
+					l -20,-70	l 70,-20
+				"/>
+			</g>
+			<g id="dirt-particle-4" fill="#cd8c4a">
+				<path d="
+					M 170,560	l 70,50
+					l -50,70	l -70,-50
+				"/>
+				<path d="
+					M 130,980	l -90,10
+					l -10,-90	l 90,-10
+				"/>
+				<path d="
+					M 510,770	l 80,-40
+					l 40,80		l -80,40
+				"/>
+			</g>
+		</g>
+	</g>
+	<g id="grass">
+		<!--
+				[Grass Color Info]
+				"grass-background"	#2ecc71 = hsv(145°, 77%, 80%)
+				"grass-bottom"		#28b162 = hsv(145°, 77%, 69%)
+				"grass-particle-1"	#2bbb67 = hsv(145°, 77%, 73%)
+				"grass-particle-2"	#2dc46c = hsv(145°, 77%, 77%)
+				"grass-particle-3"	#30d475 = hsv(145°, 77%, 83%)
+				"grass-top"			#31d978 = hsv(145°, 77%, 85%)
+		-->
+		<path id="grass-background" fill="#2ecc71" d="
+			M 0,0		l 0,320
+			l 171,-130	l 171,130
+			l 171,-120	l 171,120
+			l 170,-120	l 170 130
+			l 0,-330
+		"/>
+		<path id="grass-bottom" fill="#28b162" d="
+			M 0,255
+			l 171,-100	l 171,100
+			l 171,-100	l 171,100
+			l 170,-100	l 170,100
+			l 0,75
+			l -170,-130	l -170,120
+			l -171,-120	l -171,120
+			l -171,-130	l -171,130
+		"/>
+		<path id="grass-shadow" fill-opacity="0.1" d="
+			M 0,320
+			l 171,-130	l 171,130
+			l 171,-120	l 171,120
+			l 170,-120	l 170,130
+			l 0,85
+			l -170,-170	l -170,170
+			l -171,-170	l -171,170
+			l -171,-170	l -171,170
+		"/>
+		<g id="grass-particle">
+			<g id="grass-particle-1" fill="#2bbb67">
+				<path d="M 0,255	l 0,-58		l 34,38"/>
+				<path d="M 598,205	l 94,0		l -22,42"/>
+				<path d="M 1024,255	l -24,-14	l 15,-52	l 10,10"/>
+			</g>
+			<g id="grass-particle-2" fill="#2dc46c">
+				<path d="M 342,255	l 36,-21	l 15,-47	l -123,26"/>
+				<path d="M 318,136	l -20,-96	l 93,31		l -73,65"/>
+				<path d="M 625,32	l -20,70	l -60,-70	l 80,0"/>
+				<path d="M 854,155	l 25,15		l -37,-132	l -110,110	l 90,26"/>
+				<path d="M 920,50	l 95,30		l -75,65	l -20,-95"/>
+			</g>
+			<path id="grass-particle-3" fill="#30d475" d="M 75 32	l 75 124	l 75 -124"/>
+		</g>
+		<path id="grass-top" fill="#31d978" d="
+			M 0,0	l 0,32	l 1024,0
+					l 0,-32	l -1024,0
+		"/>
+	</g>
+	<g id="coal">
+		<!--
+			[Coal Color Info]
+				"coal-top"		#666666 = hsv(0°, 0%, 40%)
+				"coal-bottom"	#565656 = hsv(0°, 0%, 34%)
+		-->
+		<g id="coal-shadow" fill-opacity=".1">
+			<path d="M 345,405	l 5,0	l -10,70	l -70,10	l -30,-65	l 15,-0	l 15,35"/>
+			<path d="M 400,605	l 10,25	l -95,75	l -105,-70	l 20,-15"/>
+			<path d="M 705,465	l 20,5	l -110,150	l -175,-55	l 0,-30"/>
+			<path d="M 640,775	l 20,25	l -240,105	l -15,-160	l 15,0"/>
+			<path d="M 280,790	l 40,70	l 30,-30	l 10,20		l -50,50 	l -50,-110"/>
+			<path d="M 820,555	l 10,30	l -70,10	l -25,-70	l 10,-10"/>
+			<path d="M 795,630	l 10,0	l -55,160 	l -90,-60	l 10,-25"/>
+		</g>
+		<g id="coal-particle" fill="#666666">
+			<path d="M 315,380	l -50,75	l -30,-65"/>
+			<path d="M 315,380	l -50,75	l 70,-10	l 15,-70"	fill="#565656"/>
+			<path d="M 270,560	l 145,35	l -45,-115"/>
+			<path d="M 270,560	l 145,35	l -100,80	l -100,-70"	fill="#565656"/>
+			<path d="M 440,500	l 285,-55	l -275,-95"/>
+			<path d="M 440,500	l 285,-55	l -110,145	l -175,-55"	fill="#565656"/>
+			<path d="M 405,730	l 240,10	l -90,-100	l -152,70"/>
+			<path d="M 405,730	l 240,10	l 20,20		l -245,110"	fill="#565656"/>
+			<path d="M 280,795	l 75,5		l -20,-45 	l -70,5"/>
+			<path d="M 280,795	l 75,5		l 10,20		l -55,50"	fill="#565656"/>
+			<path d="M 735,500	l 85,15		l -30,-65"/>
+			<path d="M 735,500	l 85,15		l 20,45		l -80,5"	fill="#565656"/>
+			<path d="M 665,685	l 115,-10	l 20,-60	l -105,-10"/>
+			<path d="M 665,685	l 115,-10	l -35,95	l -90,-60"	fill="#565656"/>
+		</g>
+	</g>
 </svg>
