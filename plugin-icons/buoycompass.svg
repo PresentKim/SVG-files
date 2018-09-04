@@ -16,6 +16,6 @@
 	</g>
 	<g id="needle" fill="#d1d1d5" stroke-width="16" stroke-linejoin="round">
 		<polygon id="needle-point" stroke="#e5e5e5" points="740,184 480,480 284,840 544,544" />
-		<circle id="nidle-center" stroke="#ffffff" cx="512" cy="512" r="96" />
+		<circle id="needle-center" stroke="#ffffff" cx="512" cy="512" r="96" />
 	</g>
 </svg>
