@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 64 64" version="1.1">
+	<title>download</title>
+	<defs>
+		<path id="path-1" d="M.06 64V.04H64V64z"/>
+	</defs>
+	<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		<g id="download">
+			<g id="Group-3">
+				<mask id="mask-2" fill="#fff">
+					<use xlink:href="#path-1"/>
+				</mask>
+				<path d="M64 32c0 17.673-14.327 32-32 32C14.327 64 0 49.673 0 32 0 14.327 14.327 0 32 0c17.673 0 32 14.327 32 32"
+					  id="Fill-1" fill="#B85756" mask="url(#mask-2)"/>
+			</g>
+			<path d="M39.984 11.174c.006-.098.01-.156.013-.156.002 0 .003.031.003.099l-.016.057" id="Fill-4"
+				  fill="#974D4C"/>
+			<path d="M24.018 11.179L24 11.117c0-.068.001-.099.003-.099.003 0 .008.059.015.161" id="Fill-5"
+				  fill="#974D4C"/>
+			<path d="M48 48H18c-5.523 0-10-4.477-10-10 0-5.009 3.687-9.146 8.492-9.874a16.037 16.037 0 0 1 8.748-10.62l.007.001c.233-.1.474-.144.713-.144 1.044 0 2.04.855 2.04 1.754v8.5c0 .828-.672 1.383-1.5 1.383h-3.061c-1.472 0-1.883 1.127-.914 2.362l7.713 9.829c.485.617 1.123.926 1.762.926s1.277-.309 1.762-.926l7.713-9.829c.969-1.235.558-2.362-.914-2.362H37.5c-.828 0-1.5-.555-1.5-1.383v-8.5c0-.858.579-1.874 1.695-1.874.279 0 .59.063.935.208C44.153 19.972 48 25.531 48 32a8 8 0 0 1 0 16"
+				  id="Fill-6" fill="#974D4C"/>
+			<path d="M48 30c0-6.469-3.847-12.028-9.37-14.549-1.726-.724-2.63.595-2.63 1.666v8.5c0 .828.672 1.383 1.5 1.383h3.061c1.472 0 1.883 1.127.914 2.362l-7.713 9.829c-.969 1.234-2.555 1.234-3.524 0l-7.713-9.829c-.969-1.235-.558-2.362.914-2.362H26.5c.828 0 1.5-.555 1.5-1.383v-8.5c0-1.105-1.504-2.143-2.753-1.61l-.007-.001a16.037 16.037 0 0 0-8.748 10.62C11.687 26.854 8 30.991 8 36c0 5.523 4.477 10 10 10h30a8 8 0 0 0 0-16"
+				  id="Fill-7" fill="#FFFFFE"/>
+			<path d="M39.984 9.174L40 9.117c0-.161-.005-.113-.016.057" id="Fill-8" fill="#8478AA"/>
+			<path d="M24 9.117l.018.062c-.012-.174-.018-.225-.018-.062" id="Fill-9" fill="#8478AA"/>
+		</g>
+	</g>
+	<metadata>
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+			<rdf:Description about="https://iconscout.com/legal#licenses" dc:title="download" dc:description="download" dc:publisher="Iconscout" dc:date="2017-09-25" dc:format="image/svg+xml" dc:language="en">
+				<dc:creator>
+					<rdf:Bag>
+						<rdf:li>Elegant Themes</rdf:li>
+					</rdf:Bag>
+				</dc:creator>
+			</rdf:Description>
+		</rdf:RDF>
+	</metadata>
+</svg>
