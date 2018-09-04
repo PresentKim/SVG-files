@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
 	<circle id="background" fill="#25b7d3" cx="512" cy="512" r="512"/>
 	<g id="board">
-		<path id="board-border" fill="#84462d" d="M214 251c0-20 17-37 37-37h522c20 0 37 17 37 37v522c0 20-17 37-37 37H251c-20 0-37-17-37-37z"/>
-		<path id="board-background" fill="#ffffff" d="M251 251h522v522H251z"/>
+		<rect id="board-background" fill="#ffffff" x="234" y="234" width="554" height="554" rx="30" ry="30" stroke="#84462d" stroke-width="36" />
 		<g id="board-tile" fill="#ffffff">
 			<path fill="#3e3e3f" d="M251 642h131v131H251zm131-130h130v130H382zm130-130h130v130H512zm0 260h130v131H512zm130-391h131v131H642zM642 512 h131v130H642z"/>
 			<path id="board-tile-Backlight" fill="#5b5c5f" d="M382 251h130v131H382zM251 382h131v130H251z"/>
