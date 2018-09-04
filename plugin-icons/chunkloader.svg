@@ -1,14 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" version="1.0">
-	<circle cx="55" cy="55" r="55" fill="#25B7D3" />
-	<path fill="#84462D" d="M23 27a4 4 0 0 1 4-4h56a4 4 0 0 1 4 4v56a4 4 0 0 1-4 4H27a4 4 0 0 1-4-4V27z" />
-	<path fill="#ffffff" d="M27 27h56v56H27z" />
-	<path fill="#3E3E3F" d="M27 69h14v14H27zM41 55h14v14H41zM55 41h14v14H55zM55 69h14v14H55zM69 27h14v14H69z" />
-	<path fill="#5B5C5F" d="M41 27h14v14H41z" />
-	<path fill="#3E3E3F" d="M55 41H41l14-14z" />
-	<path fill="#5B5C5F" d="M27 41h14v14H27z" />
-	<path fill="#3E3E3F" d="M41 55H27l14-14zM69 55h14v14H69z" />
-	<circle cx="48" cy="62" r="4" fill="#ffffff" />
-	<circle cx="76" cy="62" r="4" fill="#ffffff" />
-	<circle cx="62" cy="76" r="4" fill="#ffffff" />
-	<circle cx="34" cy="76" r="4" fill="#ffffff" />
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+	<circle id="background" fill="#25b7d3" cx="512" cy="512" r="512"/>
+	<g id="board">
+		<path id="board-border" fill="#84462d" d="M214 251c0-20 17-37 37-37h522c20 0 37 17 37 37v522c0 20-17 37-37 37H251c-20 0-37-17-37-37z"/>
+		<path id="board-background" fill="#ffffff" d="M251 251h522v522H251z"/>
+		<g id="board-tile" fill="#ffffff">
+			<path fill="#3e3e3f" d="M251 642h131v131H251zm131-130h130v130H382zm130-130h130v130H512zm0 260h130v131H512zm130-391h131v131H642zM642 512 h131v130H642z"/>
+			<path id="board-tile-Backlight" fill="#5b5c5f" d="M382 251h130v131H382zM251 382h131v130H251z"/>
+			<path fill="#3e3e3f" d="M512 382H382l130-131zM382 512H251l131-130z"/>
+		</g>
+	</g>
+	<g id="chessman" fill="#ffffff">
+		<circle cx="448" cy="577" r="36" />
+		<circle cx="708" cy="577" r="36" />
+		<circle cx="580" cy="707" r="36" />
+		<circle cx="580" cy="707" r="36" />
+		<circle cx="316" cy="707" r="36" />
+	</g>
 </svg>
