@@ -1,29 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 64 64" version="1.1">
-	<title>batterylow</title>
-	<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-		<g id="batterylow">
-			<g id="Group-3">
-				<path d="M64 32c0 17.673-14.327 32-32 32C14.327 64 0 49.673 0 32 0 14.327 14.327 0 32 0c17.673 0 32 14.327 32 32" id="Fill-1" fill="#D5915B" />
-			</g>
-			<path d="M50 40h-2V28h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2" id="Fill-4" fill="#AE7A51" />
-			<path d="M46 45H14a2 2 0 0 1-2-2V25a2 2 0 0 1 2-2h32a2 2 0 0 1 2 2v18a2 2 0 0 1-2 2zm-31-3h30V26H15v16z" id="Fill-5" fill="#AE7A51" />
-			<path id="Fill-6" fill="#AE7A51" d="M17 40h26V28H17z" />
-			<path d="M50 26h-2v12h2a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2" id="Fill-7" fill="#4C5665" />
-			<path id="Fill-8" fill="#FFFFFE" d="M15 40h30V24H15z" />
-			<path d="M15 40h30V24H15v16zm31-19H14a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h32a2 2 0 0 0 2-2V23a2 2 0 0 0-2-2z" id="Fill-9" fill="#4C5665" />
-			<path id="Fill-10" fill="#B85756" d="M17 38h11V26H17z" />
-		</g>
-	</g>
-	<metadata>
-		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
-			<rdf:Description about="https://iconscout.com/legal#licenses" dc:title="batterylow" dc:description="batterylow" dc:publisher="Iconscout" dc:date="2017-09-25" dc:format="image/svg+xml" dc:language="en">
-				<dc:creator>
-					<rdf:Bag>
-						<rdf:li>Elegant Themes</rdf:li>
-					</rdf:Bag>
-				</dc:creator>
-			</rdf:Description>
-		</rdf:RDF>
-	</metadata>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+  <path fill="#D5915B"  d="M1024 512A512 512 0 1 1 0 512a512 512 0 0 1 1024 0"/>
+  <path fill="#AE7A51"  d="M800 640h-32V448h32c18 0 32 14 32 32v128c0 18-14 32-32 32M736 720H224c-18 0-32-14-32-32V400c0-18 14-32 32-32h512c18 0 32 14 32 32v288c0 18-14 32-32 32zm-496-48h480V416H240zm0 0"/>
+  <path fill="#AE7A51"  d="M272 640h416V448H272zm0 0"/>
+  <path fill="#4C5665"  d="M800 416h-32v192h32c18 0 32-14 32-32V448c0-18-14-32-32-32"/>
+  <path fill="#FFFFFE"  d="M240 640h480V384H240zm0 0"/>
+  <path fill="#4C5665"  d="M240 640h480V384H240zm496-304H224c-18 0-32 14-32 32v288c0 18 14 32 32 32h512c18 0 32-14 32-32V368c0-18-14-32-32-32zm0 0"/>
+  <path fill="#B85756"  d="M272 608h176V416H272zm0 0"/>
 </svg>

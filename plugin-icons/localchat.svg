@@ -1,15 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="110px" style="enable-background:new 0 0 110 110;" version="1.0" viewBox="0 0 110 110" width="110px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g id="Artboard" />
-    <g id="Multicolor">
-        <circle cx="55" cy="55" r="55" style="fill:#25B7D3;" />
-        <g>
-            <path d="M39,67c0,2.209,1.791,4,4,4h24l12,12V71h4c2.209,0,4-1.791,4-4V35c0-2.209-1.791-4-4-4H43    c-2.209,0-4,1.791-4,4V67z" style="fill:#6FDAF1;" />
-            <path d="M71,59c0,2.209-1.791,4-4,4H43L31,75V63h-4c-2.209,0-4-1.791-4-4V27c0-2.209,1.791-4,4-4h40    c2.209,0,4,1.791,4,4V59z" style="fill:#F0F1F1;" />
-            <path d="M70.335,24.798C69.62,23.716,68.395,23,67,23H27c-2.209,0-4,1.791-4,4v32c0,2.209,1.791,4,4,4h4    v1.134L70.335,24.798z" style="fill:#FFFFFF;" />
-            <circle cx="35" cy="43" r="4" style="fill:#21B2D1;" />
-            <circle cx="47" cy="43" r="4" style="fill:#21B2D1;" />
-            <circle cx="59" cy="43" r="4" style="fill:#21B2D1;" />
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+	<path fill="#25B7D3" d="M1024 512A512 512 0 1 1 0 512a512 512 0 0 1 1024 0zm0 0"/>
+	<path fill="#6FDAF1" d="M363 624c0 20 17 37 37 37h224l111 112V661h38c20 0 37-17 37-37V326c0-21-17-37-37-37H400c-20 0-37 16-37 37zm0 0"/>
+	<path fill="#F0F1F1" d="M661 549c0 21-17 37-37 37H400L289 698V586h-38c-20 0-37-16-37-37V251c0-20 17-37 37-37h373c20 0 37 17 37 37zm0 0"/>
+	<path fill="#FFFFFF" d="M655 231c-7-10-18-17-31-17H251c-20 0-37 17-37 37v298c0 21 17 37 37 37h38v11zm0 0"/>
+	<path fill="#21B2D1" d="M363 400a37 37 0 1 1-74 0 37 37 0 0 1 74 0zm0 0M475 400a37 37 0 1 1-75 0 37 37 0 0 1 75 0zm0 0M586 400a37 37 0 1 1-74 0 37 37 0 0 1 74 0zm0 0"/>
 </svg>

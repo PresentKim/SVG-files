@@ -1,31 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 64 64" version="1.1">
-	<title>computer</title>
-	<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-		<g id="computer">
-			<g id="Group-3">
-				<path d="M64 32c0 17.673-14.327 32-32 32C14.327 64 0 49.673 0 32 0 14.327 14.327 0 32 0c17.673 0 32 14.327 32 32" id="Fill-1" fill="#73BBA3" />
-			</g>
-			<path d="M42 54H22a2 2 0 1 1 0-4h20a2 2 0 1 1 0 4" id="Fill-4" fill="#629986" />
-			<path d="M44 50a2 2 0 0 1-2 2H22a2 2 0 1 1 0-4h20a2 2 0 0 1 2 2" id="Fill-5" fill="#FFFFFE" />
-			<path d="M37 42s-1 6 3 6H24c4 0 3-6 3-6h10" id="Fill-6" fill="#DEDECA" />
-			<path d="M48 44H36.898c-.048-1.102.102-2 .102-2h11a4 4 0 0 0 4-4v2a4 4 0 0 1-4 4m-20.898 0H16a4 4 0 0 1-4-4V18v20a4 4 0 0 0 4 4h11s.15.898.102 2" id="Fill-7" fill="#629986" />
-			<path d="M36.898 44h-9.796c.048-1.102-.102-2-.102-2h10s-.15.898-.102 2" id="Fill-8" fill="#B3B2A4" />
-			<path d="M16 40.5a2.502 2.502 0 0 1-2.5-2.5V16c0-1.379 1.121-2.5 2.5-2.5h32c1.379 0 2.5 1.121 2.5 2.5v22c0 1.379-1.121 2.5-2.5 2.5H16" id="Fill-9" fill="#4C5665" />
-			<path d="M48 12H16a4 4 0 0 0-4 4v22a4 4 0 0 0 4 4h32a4 4 0 0 0 4-4V16a4 4 0 0 0-4-4m0 3c.551 0 1 .449 1 1v22c0 .551-.449 1-1 1H16c-.551 0-1-.449-1-1V16c0-.551.449-1 1-1h32" id="Fill-10" fill="#FFFFFE" />
-			<path d="M48 39h-7.303L26.894 15H48c.551 0 1 .449 1 1v22c0 .551-.449 1-1 1" id="Fill-11" fill="#6D7683" />
-			<path d="M50.001 39.879h-8.798L40.697 39H48c.551 0 1-.449 1-1V16c0-.551-.449-1-1-1H26.894l-.644-1.12h23.751v25.999" id="Fill-12" fill="#FFFFFE" />
-		</g>
-	</g>
-	<metadata>
-		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
-			<rdf:Description about="https://iconscout.com/legal#licenses" dc:title="computer" dc:description="computer" dc:publisher="Iconscout" dc:date="2017-09-25" dc:format="image/svg+xml" dc:language="en">
-				<dc:creator>
-					<rdf:Bag>
-						<rdf:li>Elegant Themes</rdf:li>
-					</rdf:Bag>
-				</dc:creator>
-			</rdf:Description>
-		</rdf:RDF>
-	</metadata>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+	<path fill="#73bba3" d="M1024 512A512 512 0 1 1 0 512a512 512 0 0 1 1024 0"/>
+	<path fill="#629986" d="M672 864H352a32 32 0 0 1 0-64h320a32 32 0 0 1 0 64"/>
+	<path fill="#fffffe" d="M704 800c0 18-14 32-32 32H352a32 32 0 0 1 0-64h320c18 0 32 14 32 32"/>
+	<path fill="#dedeca" d="M592 672s-16 96 48 96H384c64 0 48-96 48-96h160"/>
+	<path fill="#629986" d="M768 704H590c0-18 2-32 2-32h176c35 0 64-29 64-64v32c0 35-29 64-64 64m-334 0H256c-35 0-64-29-64-64V288v320c0 35 29 64 64 64h176s2 14 2 32"/>
+	<path fill="#b3b2a4" d="M590 704H434c0-18-2-32-2-32h160s-2 14-2 32"/>
+	<path fill="#4c5665" d="M256 648c-22 0-40-18-40-40V256c0-22 18-40 40-40h512c22 0 40 18 40 40v352c0 22-18 40-40 40H256"/>
+	<path fill="#fffffe" d="M768 192H256c-35 0-64 29-64 64v352c0 35 29 64 64 64h512c35 0 64-29 64-64V256c0-35-29-64-64-64m0 48c9 0 16 7 16 16v352c0 9-7 16-16 16H256c-9 0-16-7-16-16V256c0-9 7-16 16-16h512"/>
+	<path fill="#6d7683" d="M768 624H651L430 240h338c9 0 16 7 16 16v352c0 9-7 16-16 16"/>
+	<path fill="#fffffe" d="M800 638H659l-8-14h117c9 0 16-7 16-16V256c0-9-7-16-16-16H430l-10-18h380v416"/>
 </svg>

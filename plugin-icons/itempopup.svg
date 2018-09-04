@@ -1,24 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 64 64" version="1.1">
-	<title>shop</title>
-	<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-		<g id="shop">
-			<g id="Group-3">
-				<path d="M64 32c0 17.673-14.327 32-32 32C14.327 64 0 49.673 0 32 0 14.327 14.327 0 32 0c17.673 0 32 14.327 32 32" id="Fill-1" fill="#DEDECA" />
-			</g>
-			<path d="M28.389 54a2.462 2.462 0 0 1-1.742-.72L12.721 39.348a2.462 2.462 0 0 1 0-3.483L30.86 17.719c.111-.111.969-.701 1.347-.718h15.63c.675 0 1.196.535 1.161 1.224v15.562c0 .474-.619 1.236-.73 1.347L30.13 53.28a2.456 2.456 0 0 1-1.741.72M44 20a2 2 0 1 0 .001 4.001A2 2 0 0 0 44 20" id="Fill-4" fill="#B3B2A4" />
-			<path d="M44 22a2 2 0 1 1 .001-4.001A2 2 0 0 1 44 22zm3.837-6.999h-15.63c-.378.017-1.236.607-1.347.718L12.721 33.864a2.464 2.464 0 0 0 0 3.484l13.926 13.931a2.459 2.459 0 0 0 1.742.721c.628 0 1.26-.239 1.741-.721l18.138-18.145c.111-.111.73-.873.73-1.347V16.225a1.144 1.144 0 0 0-1.161-1.224z" id="Fill-5" fill="#B85756" />
-		</g>
-	</g>
-	<metadata>
-		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
-			<rdf:Description about="https://iconscout.com/legal#licenses" dc:title="shop" dc:description="shop" dc:publisher="Iconscout" dc:date="2017-09-25" dc:format="image/svg+xml" dc:language="en">
-				<dc:creator>
-					<rdf:Bag>
-						<rdf:li>Elegant Themes</rdf:li>
-					</rdf:Bag>
-				</dc:creator>
-			</rdf:Description>
-		</rdf:RDF>
-	</metadata>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+	<path fill="#DEDECA" d="M1024 512A512 512 0 1 1 0 512a512 512 0 0 1 1024 0"/>
+	<path fill="#B3B2A4" d="M454 864c-10 0-20-4-28-12L204 630a39 39 0 0 1 0-56l290-290c2-2 15-12 21-12h250c11 0 20 9 19 20v249c0 7-10 19-12 21L482 852c-7 8-17 12-28 12m250-544a32 32 0 1 0 0 64 32 32 0 0 0 0-64"/>
+	<path fill="#B85756" d="M704 352a32 32 0 1 1 0-64 32 32 0 0 1 0 64zm61-112H515c-6 0-19 10-21 12L204 542a39 39 0 0 0 0 56l222 222a39 39 0 0 0 56 0l290-290c2-2 12-14 12-21V260a18 18 0 0 0-19-20zm0 0"/>
 </svg>
