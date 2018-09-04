@@ -1,12 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
-	<g id="background" fill="#147fe1">
-		<path fill="#4f5564" d="M1024 512A512 512 0 1 1 0 512a512 512 0 0 1 1024 0zm0 0"/>
-		<path fill="#1891ff" d="M512 956a444 444 0 1 1 0-888 444 444 0 0 1 0 888zm0 0"/>
-	</g>
-	<g id="badge" fill="#147fe1">
-		<path fill="#147fe1" d="M494.93 64.85a30.72 30.72 0 0 1 0-59.73h34.14a30.72 30.72 0 0 1 0 59.73zm0 0"/>
-		<path fill="#2e3648" d="M529.07 8.54a25.6 25.6 0 1 1 0 51.2h-34.14a25.6 25.6 0 1 1 0-51.2h34.14m0-8.54h-34.14a34.13 34.13 0 1 0 0 68.27h34.14a34.13 34.13 0 1 0 0-68.27zm0 0"/>
-	</g>
+	<circle id="background" fill="#1891ff" cx="512" cy="512" r="480" stroke="#4f5564" stroke-width="64" />
+	<rect id="badge" fill="#147fe1" x="467" y="8" width="90" height="50" rx="30" ry="30" stroke="#2e3648" stroke-width="10" />
 	<g id="particle" fill="#147fe1">
 		<polygon points="512,181 553,152 538,102 486,102 471,152" />
 		<polygon points="512,843 553,872 538,922 486,922 471,872" />
