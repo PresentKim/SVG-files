@@ -1,15 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
 	<circle id="background" fill="#1891ff" cx="512" cy="512" r="480" stroke="#4f5564" stroke-width="64" />
 	<rect id="badge" fill="#147fe1" x="467" y="8" width="90" height="50" rx="30" ry="30" stroke="#2e3648" stroke-width="10" />
-	<g id="particle" fill="#147fe1">
-		<polygon points="512,181 553,152 538,102 486,102 471,152" />
-		<polygon points="512,843 553,872 538,922 486,922 471,872" />
-		<polygon points="278 278 287,227 241,205 205,241 227,287" />
-		<polygon points="746,746 797,737 819,783 783,819 737,797" />
-		<polygon points="181,512 152,471 102,486 102,538 152,553" />
-		<polygon points="843,512 872,471 922,486 922,538 872,553" />
-		<polygon points="278,746 227,737 205,783 241,819 287,797" />
-		<polygon points="746,278 737,227 783,205 819,241 797,287" />
+	<g id="particle" fill="#147fe1" xmlns:xlink= "http://www.w3.org/1999/xlink">
+		<defs>
+			<polygon id="pentagon" points="0,-328 42,-358 26,-408 -26,-408 -40,-358"/>
+		</defs>
+		<use xlink:href="#pentagon" x="512" y="512"/>
+		<use xlink:href="#pentagon" x="512" y="512" transform="rotate(45,512,512)"/>
+		<use xlink:href="#pentagon" x="512" y="512" transform="rotate(90,512,512)"/>
+		<use xlink:href="#pentagon" x="512" y="512" transform="rotate(135,512,512)"/>
+		<use xlink:href="#pentagon" x="512" y="512" transform="rotate(180,512,512)"/>
+		<use xlink:href="#pentagon" x="512" y="512" transform="rotate(225,512,512)"/>
+		<use xlink:href="#pentagon" x="512" y="512" transform="rotate(270,512,512)"/>
+		<use xlink:href="#pentagon" x="512" y="512" transform="rotate(315,512,512)"/>
 	</g>
 	<g id="needle" fill="#d1d1d5" stroke-width="16" stroke-linejoin="round">
 		<polygon id="needle-point" stroke="#e5e5e5" points="740,184 480,480 284,840 544,544" />
