@@ -1,76 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="1024" viewBox="0 0 1024 1024">
-	<defs>
-		<filter id="a" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
-			<feColorMatrix in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
-		</filter>
-		<mask id="o">
-			<use filter="url(#a)" xlink:href="#b"/>
-		</mask>
-		<clipPath id="c">
-			<path d="M0 0h1024v1024H0z"/>
-		</clipPath>
-		<g id="n" clip-path="url(#c)">
-			<path fill="#F6E568" d="M538 663c0 5-7 9-16 9s-16-4-16-9V473c0-6 7-10 16-10s16 4 16 10zm0 0"/>
-		</g>
-		<mask id="q">
-			<use filter="url(#a)" xlink:href="#d"/>
-		</mask>
-		<clipPath id="e">
-			<path d="M0 0h1024v1024H0z"/>
-		</clipPath>
-		<g id="p" clip-path="url(#e)">
-			<path fill="#F6E568" d="M641 687c-3 4-12 4-20-1-7-5-11-13-8-17l84-129c3-4 11-4 19 1s11 13 8 18zm0 0"/>
-		</g>
-		<mask id="s">
-			<use filter="url(#a)" xlink:href="#f"/>
-		</mask>
-		<clipPath id="g">
-			<path d="M0 0h1024v1024H0z"/>
-		</clipPath>
-		<g id="r" clip-path="url(#g)">
-			<path fill="#F6E568" d="M391 687c3 4 12 4 19-1 8-5 12-13 9-17l-84-129c-3-4-12-4-20 1-7 5-11 13-8 18zm0 0"/>
-		</g>
-		<mask id="u">
-			<use filter="url(#a)" xlink:href="#h"/>
-		</mask>
-		<clipPath id="i">
-			<path d="M0 0h1024v1024H0z"/>
-		</clipPath>
-		<g id="t" clip-path="url(#i)">
-			<path fill="#F6E568" d="M108 381c-12-12 1-45 13-57s40-23 52-11-53 79-65 68zm0 0"/>
-		</g>
-		<mask id="w">
-			<use filter="url(#a)" xlink:href="#j"/>
-		</mask>
-		<clipPath id="k">
-			<path d="M0 0h1024v1024H0z"/>
-		</clipPath>
-		<g id="v" clip-path="url(#k)">
-			<path fill="#F6E568" d="M463 304c-11-12 1-45 13-57s41-23 53-11c11 12-54 79-66 68zm0 0"/>
-		</g>
-		<mask id="y">
-			<use filter="url(#a)" xlink:href="#l"/>
-		</mask>
-		<clipPath id="m">
-			<path d="M0 0h1024v1024H0z"/>
-		</clipPath>
-		<g id="x" clip-path="url(#m)">
-			<path fill="#F6E568" d="M808 375c-12-12 1-45 13-56 12-12 40-23 52-12 12 12-53 80-65 68zm0 0"/>
-		</g>
-	</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<path fill="#344E5D" d="M1024 512A512 512 0 1 1 0 512a512 512 0 0 1 1024 0zm0 0"/>
-	<path fill="#DEBA24"
-		  d="M724 751c0 29-24 53-54 53H355c-29 0-53-24-53-53l-67-173c0-30 24-53 54-53h448c29 0 53 23 53 53zm0 0"/>
-	<path fill="#DEBA24"
-		  d="M410 701a49 49 0 1 1-85 47L158 437a49 49 0 1 1 86-47zm0 0M615 701a49 49 0 1 0 86 47l166-311a49 49 0 1 0-85-47zm0 0M567 701a49 49 0 0 1-97 0l2-353a49 49 0 0 1 97 0zm0 0"/>
+	<path fill="#DEBA24" d="M724 751c0 29-24 53-54 53H355c-29 0-53-24-53-53l-67-173c0-30 24-53 54-53h448c29 0 53 23 53 53zm0 0"/>
+	<path fill="#DEBA24" d="M410 701a49 49 0 1 1-85 47L158 437a49 49 0 1 1 86-47zm0 0M615 701a49 49 0 1 0 86 47l166-311a49 49 0 1 0-85-47zm0 0M567 701a49 49 0 0 1-97 0l2-353a49 49 0 0 1 97 0zm0 0"/>
 	<path fill="#DEBA24" d="M221 369s150 93 262-52l-8 214-157 17zm0 0M807 368s-133 100-245-45l-6 211 156 18zm0 0"/>
-	<path fill="#DEBA24"
-		  d="M229 365a67 67 0 1 1-134 0 67 67 0 0 1 134 0zm0 0M585 290a67 67 0 1 1-134 0 67 67 0 0 1 134 0zm0 0M929 363a67 67 0 1 1-135 0 67 67 0 0 1 135 0zm0 0"/>
+	<path fill="#DEBA24" d="M229 365a67 67 0 1 1-134 0 67 67 0 0 1 134 0zm0 0M585 290a67 67 0 1 1-134 0 67 67 0 0 1 134 0zm0 0M929 363a67 67 0 1 1-135 0 67 67 0 0 1 135 0zm0 0"/>
 	<path fill="#B8972F" d="M724 751c0 29-24 53-54 53H355c-29 0-53-24-53-53 0 0 122-23 210-23s212 23 212 23zm0 0"/>
-	<use mask="url(#o)" xlink:href="#n"/>
-	<use mask="url(#q)" xlink:href="#p"/>
-	<use mask="url(#s)" xlink:href="#r"/>
-	<use mask="url(#u)" xlink:href="#t"/>
-	<use mask="url(#w)" xlink:href="#v"/>
-	<use mask="url(#y)" xlink:href="#x"/>
 </svg>
