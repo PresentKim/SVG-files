@@ -11,11 +11,8 @@
 		<polygon points="278,746 227,737 205,783 241,819 287,797" />
 		<polygon points="746,278 737,227 783,205 819,241 797,287" />
 	</g>
-	<g id="needle" fill="#d1d1d5" stroke-width="17.06667" stroke-linejoin="round">
-		<g id="needle" fill="#d1d1d5" stroke="#e5e5e5">
-			<path d="M577 510l-84-58-203 379zm0 0"/>
-			<path d="M538 567l-84-58 287-321zm0 0"/>
-		</g>
-		<path fill="#d1d1d5" stroke="#fff" d="M597 512a85 85 0 1 1-170 0 85 85 0 0 1 170 0zm0 0"/>
+	<g id="needle" fill="#d1d1d5" stroke-width="16" stroke-linejoin="round">
+		<polygon id="needle-point" stroke="#e5e5e5" points="740,184 480,480 284,840 544,544" />
+		<circle id="nidle-center" stroke="#ffffff" cx="512" cy="512" r="96" />
 	</g>
 </svg>
