@@ -1,18 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
 	<circle id="background" fill="#25b7d3" cx="512" cy="512" r="512"/>
 	<g id="board">
-		<rect id="board-background" fill="#ffffff" x="234" y="234" width="554" height="554" rx="30" ry="30" stroke="#84462d" stroke-width="36" />
-		<g id="board-tile" fill="#ffffff">
-			<path fill="#3e3e3f" d="M251 642h131v131H251zm131-130h130v130H382zm130-130h130v130H512zm0 260h130v131H512zm130-391h131v131H642zM642 512 h131v130H642z"/>
-			<path id="board-tile-Backlight" fill="#5b5c5f" d="M382 251h130v131H382zM251 382h131v130H251z"/>
-			<path fill="#3e3e3f" d="M512 382H382l130-131zM382 512H251l131-130z"/>
+		<rect id="board-border" fill="none" x="156" y="156" width="708" height="708" rx="30" ry="30" stroke="#84462d" stroke-width="52" />
+		<rect id="board-background" fill="#ffffff" x="168" y="168" width="688" height="688"/>
+		<g id="board-tile" fill="#3e3e3f">
+			<polygon points="168,512 168,340 340,340 340,168 512,168 512,340 684,340 684,168 856,168 856,340 684,340 684,512 856,512 856,684 684,684 684,856 512,856 512,684 684,684 684,512 512,512 512,340 340,340 340,512 512,512 512,684 340,684 340,856 168,856 168,684 340,684 340,512"/>
+			<polygon id="board-tile-Backlight" fill="#5b5c5f" points="168,512 512,168 340,168 340,340 168,340"/>
 		</g>
 	</g>
 	<g id="chessman" fill="#ffffff">
-		<circle cx="448" cy="577" r="36" />
-		<circle cx="708" cy="577" r="36" />
-		<circle cx="580" cy="707" r="36" />
-		<circle cx="580" cy="707" r="36" />
-		<circle cx="316" cy="707" r="36" />
+		<circle cx="254" cy="770" r="36" />
+		<circle cx="426" cy="598" r="36" />
+		<circle cx="598" cy="770" r="36" />
+		<circle cx="770" cy="598" r="36" />
 	</g>
 </svg>
