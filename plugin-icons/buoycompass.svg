@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<circle id="background" fill="#1891ff" cx="512" cy="512" r="480" stroke="#4f5564" stroke-width="64" />
 	<rect id="badge" fill="#147fe1" x="467" y="8" width="90" height="50" rx="30" ry="30" stroke="#2e3648" stroke-width="10" />
 	<g id="particle" fill="#147fe1" xmlns:xlink= "http://www.w3.org/1999/xlink">

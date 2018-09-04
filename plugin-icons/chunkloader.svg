@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<circle id="background" fill="#25b7d3" cx="512" cy="512" r="512"/>
 	<rect id="board-border" fill="none" x="156" y="156" width="708" height="708" rx="30" ry="30" stroke="#84462d" stroke-width="52"/>
 	<rect id="board-background" fill="#ffffff" x="168" y="168" width="688" height="688"/>
