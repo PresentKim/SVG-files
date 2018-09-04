@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<style>.a{fill:#4f5564;}.b{fill:#1891ff;}.c{fill:#fff;}.d{fill:#2e3648;}.e{fill:#147fe1;}.f{stroke:#e5e5e5;stroke-linejoin:round;fill:url(#a);}.f,.g{stroke-width:0.5px;}.g{stroke:#fff;stroke-miterlimit:10;fill:url(#b);}</style>
+		<linearGradient gradientTransform="translate(69.3244 17.91202) rotate(125.00002)" gradientUnits="userSpaceOnUse" id="a" x1="34.21652" x2="48.21652" y1="32.21327" y2="18.21327">
+			<stop offset="0" stop-color="#fff" />
+			<stop offset="0" stop-color="#eff1f4" />
+			<stop offset="1" stop-color="#d1d1d5" />
+		</linearGradient>
+		<linearGradient gradientTransform="matrix(1, 0, 0, 1, 0, 0)" id="b" x1="26.46447" x2="33.53553" xlink:href="#a" y1="33.53553" y2="26.46447" />
+	</defs>
+	<title />
+	<circle class="a" cx="30" cy="30" r="30" />
+	<path class="b" d="M30,56A26,26,0,1,1,56,30,26.02948,26.02948,0,0,1,30,56Z" />
+	<path class="c" d="M29,3.75a1.75,1.75,0,0,1,0-3.5h2a1.75,1.75,0,0,1,0,3.5Z" />
+	<path class="d" d="M31,.5a1.5,1.5,0,0,1,0,3H29a1.5,1.5,0,0,1,0-3h2M31,0H29a2,2,0,0,0,0,4h2a2,2,0,0,0,0-4Z" />
+	<polygon class="e" points="30 10.639 27.561 8.867 28.493 6 31.507 6 32.439 8.867 30 10.639" />
+	<polygon class="e" points="30 49.361 27.561 51.133 28.493 54 31.507 54 32.439 51.133 30 49.361" />
+	<polygon class="e" points="16.309 16.309 13.332 16.781 11.964 14.095 14.095 11.964 16.781 13.332 16.309 16.309" />
+	<polygon class="e" points="43.691 43.691 43.219 46.668 45.905 48.036 48.036 45.905 46.668 43.219 43.691 43.691" />
+	<polygon class="e" points="10.639 30 8.867 32.439 6 31.507 6 28.493 8.867 27.561 10.639 30" />
+	<polygon class="e" points="49.361 30 51.133 32.439 54 31.507 54 28.493 51.133 27.561 49.361 30" />
+	<polygon class="e" points="16.309 43.691 16.781 46.668 14.095 48.036 11.964 45.905 13.332 43.219 16.309 43.691" />
+	<polygon class="e" points="43.691 16.309 46.668 16.781 48.036 14.095 45.905 11.964 43.219 13.332 43.691 16.309" />
+	<polygon class="f" points="33.797 29.923 28.882 26.481 17 48.681 33.797 29.923" />
+	<polygon class="c" points="31.503 33.2 26.588 29.758 43.385 11 31.503 33.2" />
+	<circle class="g" cx="30" cy="30" r="5" />
+</svg>

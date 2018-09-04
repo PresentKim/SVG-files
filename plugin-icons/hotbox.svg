@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" viewBox="0 0 64 64" version="1.1">
+	<title>flame</title>
+	<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		<g id="flame">
+			<g id="Group-3">
+				<path d="M64 32c0 17.673-14.327 32-32 32C14.327 64 0 49.673 0 32 0 14.327 14.327 0 32 0c17.673 0 32 14.327 32 32" id="Fill-1" fill="#B85756" />
+			</g>
+			<path d="M28.125 58.063S12.062 55.686 12.062 42s21.003-14.991 16.355-31.969c0 0 15.726 4.921 11.887 20.245 0 0 2.08-1.328 3.671-3.912 0 0 7.962 6.151 7.962 15.511 0 9.317-10.935 16.18-16.193 16.181h-.073s5.641-7.619.509-12.53C28.894 38.555 32 34.078 32 34.078s-17.754 8.685-3.875 23.985" id="Fill-4" fill="#974D4C" />
+			<path d="M28.125 56.062S12.062 53.686 12.062 40c0-13.686 21.003-14.991 16.355-31.969 0 0 15.726 4.921 11.887 20.245 0 0 2.08-1.328 3.671-3.912 0 0 7.962 6.15 7.962 15.511 0 9.36-11.037 16.245-16.266 16.181 0 0 5.641-7.619.509-12.53C28.894 36.555 32 32.078 32 32.078s-17.754 8.685-3.875 23.984" id="Fill-5" fill="#F0CB83" />
+		</g>
+	</g>
+	<metadata>
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+			<rdf:Description about="https://iconscout.com/legal#licenses" dc:title="flame" dc:description="flame" dc:publisher="Iconscout" dc:date="2017-09-25" dc:format="image/svg+xml" dc:language="en">
+				<dc:creator>
+					<rdf:Bag>
+						<rdf:li>Elegant Themes</rdf:li>
+					</rdf:Bag>
+				</dc:creator>
+			</rdf:Description>
+		</rdf:RDF>
+	</metadata>
+</svg>
