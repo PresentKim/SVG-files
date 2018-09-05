@@ -7,25 +7,25 @@
 	-->
 	<circle id="background" fill="#2e3440" cx="512" cy="512" r="512"/>
 	<g id="box">
-		<polygon fill="#4c566a" points="530,790 810,675 810,370 530,255 255,370 255,675"/>
-		<polygon opacity="0.1" points="530,485 530,790 255,675 255,370"/>
-		<polygon opacity="0.2" points="530,485 810,370 810,675 530,790"/>
+		<polygon fill="#4c566a" points="512,790 792,675 792,370 512,255 237,370 237,675"/>
+		<polygon opacity="0.1" points="512,485 512,790 237,675 237,370"/>
+		<polygon opacity="0.2" points="512,485 792,370 792,675 512,790"/>
 	</g>
 	<g id="graph" fill="#88c0d0">
 		<g id="arrow" fill="none" stroke="#88c0d0" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
 			<g id="arrow-y">
-				<polyline id="arrow-y-shaft" points="530,780 530,160"/>
-				<polyline id="arrow-y-head" points="470,220 530,160 590,220"/>
+				<polyline id="arrow-y-shaft" points="512,780 512,160"/>
+				<polyline id="arrow-y-head" points="452,220 512,160 572,220"/>
 			</g>
 			<g id="arrow-x">
-				<polyline id="arrow-x-shaft" points="530,780 160,630"/>
-				<polyline id="arrow-x-head" points="190,700 160,630 230,600"/>
+				<polyline id="arrow-x-shaft" points="512,780 160,630"/>
+				<polyline id="arrow-x-head" points="172,700 160,630 212,600"/>
 			</g>
 			<g id="arrow-z">
-				<polyline id="arrow-z-shaft" points="530,780 910,630"/>
-				<polyline id="arrow-z-head" points="880,700 910,630 840,600"/>
+				<polyline id="arrow-z-shaft" points="512,780 910,630"/>
+				<polyline id="arrow-z-head" points="862,700 910,630 822,600"/>
 			</g>
 		</g>
-		<circle cx="530" cy="770" r="40"/>
+		<circle cx="512" cy="770" r="40"/>
 	</g>
 </svg>
