@@ -1,5 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
-	<circle id="background" fill="#76ABC4" cx="512" cy="512" r="512"/>
+	<!--
+	[Color Info]
+		"background"	nord0 (#2e3440)
+		"at"			nord4 (#d8dee9)
+	-->
+	<circle id="background" fill="#2e3440" cx="512" cy="512" r="512"/>
 	<g id="simbol" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<defs>
 			<g id="at">
@@ -8,6 +13,6 @@
 			</g>
 		</defs>
 		<use xlink:href="#at" opacity="0.2" y="32"/>
-		<use xlink:href="#at" fill="#FFFFFF"/>
+		<use xlink:href="#at" fill="#d8dee9"/>
 	</g>
 </svg>
