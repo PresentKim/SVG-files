@@ -1,9 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<circle id="background" fill="#D5915B" cx="512" cy="512" r="512"/>
-	<path opacity="0.2" d="M800 640h-32V448h32c18 0 32 14 32 32v128c0 18-14 32-32 32M736 720H224c-18 0-32-14-32-32V400c0-18 14-32 32-32h512c18 0 32 14 32 32v288c0 18-14 32-32 32zm-496-48h480V416H240zm0 0"/>
-	<path opacity="0.2" d="M272 640h416V448H272zm0 0"/>
-	<path fill="#4C5665" d="M800 416h-32v192h32c18 0 32-14 32-32V448c0-18-14-32-32-32"/>
-	<path fill="#FFFFFE" d="M240 640h480V384H240zm0 0"/>
-	<path fill="#4C5665" d="M240 640h480V384H240zm496-304H224c-18 0-32 14-32 32v288c0 18 14 32 32 32h512c18 0 32-14 32-32V368c0-18-14-32-32-32zm0 0"/>
-	<path fill="#B85756" d="M272 608h176V416H272zm0 0"/>
+	<g id="simbol" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<defs>
+			<g id="battery">
+				<path d="M800 416h-32v192h32c18 0 32-14 32-32V448c0-18-14-32-32-32"/>
+				<path d="M240 640h480V384H240zm496-304H224c-18 0-32 14-32 32v288c0 18 14 32 32 32h512c18 0 32-14 32-32V368c0-18-14-32-32-32zm0 0"/>
+			</g>
+		</defs>
+		<use xlink:href="#battery" opacity="0.15" y="32"/>
+		<use xlink:href="#battery" fill="#4C5665"/>
+		<path fill="#B85756" d="M272 608h176V416H272zm0 0"/>
+	</g>
 </svg>
