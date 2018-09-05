@@ -1,5 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
-	<circle id="background" fill="#4C5665" cx="512" cy="512" r="512"/>
+	<!--
+	[Color Info]
+		"background"	nord0 (#2e3440)
+
+		"banknote-background"	nord7 (#8fbcbb)
+		"banknote-border"		nord4 (#d8dee9)
+		"banknote-centerball"	nord3 (#4c566a)
+		"banknote-cornerball"	nord4 (#d8dee9)
+	-->
+	<circle id="background" fill="#2e3440" cx="512" cy="512" r="512"/>
 	<g id="simbol" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<defs>
 			<path id="banknote-background" d="M224 672a48 48 0 0 1-48-48V368a48 48 0 0 1 48-48h512a48 48 0 0 1 48 48v256a48 48 0 0 1-48 48H224"/>
@@ -15,10 +24,10 @@
 			<g id="banknote">
 				<use xlink:href="#banknote-shadow" x="32" y="32"/>
 
-				<use xlink:href="#banknote-background" fill="#73BBA3"/>
-				<use xlink:href="#banknote-border" fill="#DEDECA"/>
-				<use xlink:href="#banknote-centerball" fill="#4C5665"/>
-				<use xlink:href="#banknote-cornerball" fill="#DEDECA"/>
+				<use xlink:href="#banknote-background" fill="#8fbcbb"/>
+				<use xlink:href="#banknote-border" fill="#d8dee9"/>
+				<use xlink:href="#banknote-centerball" fill="#4c566a"/>
+				<use xlink:href="#banknote-cornerball" fill="#d8dee9"/>
 			</g>
 		</defs>
 		<use xlink:href="#banknote" x="64" y="64"/>
