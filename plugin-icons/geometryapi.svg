@@ -1,12 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
-	<circle id="background" fill="#e4e4e4" cx="512" cy="512" r="512"/>
+	<!--
+	[Color Info]
+		"background"	nord0 (#2e3440)
+		"box"			nord3 (#4c566a)
+		"graph"			nord8 (#88c0d0)
+	-->
+	<circle id="background" fill="#2e3440" cx="512" cy="512" r="512"/>
 	<g id="box">
-		<polygon fill="#b19353" points="530,790 810,675 810,370 530,255 255,370 255,675"/>
+		<polygon fill="#4c566a" points="530,790 810,675 810,370 530,255 255,370 255,675"/>
 		<polygon opacity="0.1" points="530,485 530,790 255,675 255,370"/>
 		<polygon opacity="0.2" points="530,485 810,370 810,675 530,790"/>
 	</g>
-	<g id="graph" fill="#6ec2cb">
-		<g id="arrow" fill="none" stroke="#6ec2cb" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+	<g id="graph" fill="#88c0d0">
+		<g id="arrow" fill="none" stroke="#88c0d0" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
 			<g id="arrow-y">
 				<polyline id="arrow-y-shaft" points="530,780 530,160"/>
 				<polyline id="arrow-y-head" points="470,220 530,160 590,220"/>
