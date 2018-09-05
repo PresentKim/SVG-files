@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<!-- https://arcticicestudio.github.io/nord/ -->
+	<defs>
+		<!-- Polar Night (0-3) -->
+		<linearGradient id="nord0">
+			<stop stop-color="#2e3440"/>
+		</linearGradient>
+		<linearGradient id="nord1">
+			<stop stop-color="#3b4252"/>
+		</linearGradient>
+		<linearGradient id="nord2">
+			<stop stop-color="#434c5e"/>
+		</linearGradient>
+		<linearGradient id="nord3">
+			<stop stop-color="#4c566a"/>
+		</linearGradient>
+
+		<!-- Snow Storm (4-6) -->
+		<linearGradient id="nord4">
+			<stop stop-color="#d8dee9"/>
+		</linearGradient>
+		<linearGradient id="nord5">
+			<stop stop-color="#e5e9f0"/>
+		</linearGradient>
+		<linearGradient id="nord6">
+			<stop stop-color="#eceff4"/>
+		</linearGradient>
+
+		<!-- Frost (7-10) -->
+		<linearGradient id="nord7">
+			<stop stop-color="#8fbcbb"/>
+		</linearGradient>
+		<linearGradient id="nord8">
+			<stop stop-color="#88c0d0"/>
+		</linearGradient>
+		<linearGradient id="nord9">
+			<stop stop-color="#81a1c1"/>
+		</linearGradient>
+		<linearGradient id="nord10">
+			<stop stop-color="#5e81ac"/>
+		</linearGradient>
+
+		<!-- Aurora (11-15) -->
+		<linearGradient id="nord11">
+			<stop stop-color="#bf616a"/>
+		</linearGradient>
+		<linearGradient id="nord12">
+			<stop stop-color="#d08770"/>
+		</linearGradient>
+		<linearGradient id="nord13">
+			<stop stop-color="#ebcb8b"/>
+		</linearGradient>
+		<linearGradient id="nord14">
+			<stop stop-color="#a3be8c"/>
+		</linearGradient>
+		<linearGradient id="nord15">
+			<stop stop-color="#b48ead"/>
+		</linearGradient>
+	</defs>
+</svg>
