@@ -6,9 +6,20 @@
 		<polygon opacity="0.2" points="530,485 810,370 810,675 530,790"/>
 	</g>
 	<g id="graph" fill="#6ec2cb">
-		<path d="M531 799c17 0 12-23 12-33V186l33 28c10 7 23 0 20-11l-2-2-2-2-36-35c-7-6-13-15-22-18l-1-1c-2-1-4 0-5 1-8 3-14 10-20 16l-38 38c-9 8 2 20 12 17 5-1 25-21 29-25l8-6v580c0 10-5 33 12 33z"/>
-		<path d="M517 791c7 16 27 3 36-1l334-138-14 41c-3 11 9 21 18 13l2-2 1-2 18-47c3-9 8-18 9-27v-2l-3-4c-6-6-15-8-23-12l-49-21c-11-5-18 9-12 18 4 4 30 15 35 17l8 5-333 138c-10 4-33 9-27 24z"/>
-		<path d="M541 791c-7 16-27 3-36-1L171 652l14 41c3 11-9 21-18 13l-2-2-1-2-18-47c-3-9-8-18-9-27v-2l3-4c6-6 15-8 23-12l49-21c11-5 18 9 12 18-4 4-30 15-34 17l-9 5 333 138c10 4 33 9 27 24z"/>
+		<g id="arrow" fill="none" stroke="#6ec2cb" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+			<g id="arrow-y">
+				<polyline id="arrow-y-shaft" points="530,780 530,160"/>
+				<polyline id="arrow-y-head" points="470,220 530,160 590,220"/>
+			</g>
+			<g id="arrow-x">
+				<polyline id="arrow-x-shaft" points="530,780 160,630"/>
+				<polyline id="arrow-x-head" points="190,700 160,630 230,600"/>
+			</g>
+			<g id="arrow-z">
+				<polyline id="arrow-z-shaft" points="530,780 910,630"/>
+				<polyline id="arrow-z-head" points="880,700 910,630 840,600"/>
+			</g>
+		</g>
 		<circle cx="530" cy="770" r="40"/>
 	</g>
 </svg>
