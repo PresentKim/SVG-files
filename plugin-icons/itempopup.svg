@@ -2,9 +2,13 @@
 	<circle id="background" fill="#DEDECA" cx="512" cy="512" r="512"/>
 	<g id="simbol" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<defs>
-			<path id="tag" d="M704 352a32 32 0 1 1 0-64 32 32 0 0 1 0 64zm61-112H515c-6 0-19 10-21 12L204 542a39 39 0 0 0 0 56l222 222a39 39 0 0 0 56 0l290-290c2-2 12-14 12-21V260a18 18 0 0 0-19-20z"/>
+			<mask id="paper-punch">
+				<circle fill="#FFF" cx="512" cy="512" r="512"/>
+				<circle fill="#000" cx="704" cy="320" r="32"/>
+			</mask>
+			<polygon id="tag" stroke-width="16" stroke-linejoin="round" points="772,248 510,250 190,570 460,830 775,515" mask="url(#paper-punch)"/>
 		</defs>
-		<use xlink:href="#tag" opacity="0.2" y="32"/>
-		<use xlink:href="#tag" fill="#B85756"/>
+		<use xlink:href="#tag" stroke="#000" opacity="0.2" y="32"/>
+		<use xlink:href="#tag" fill="#B85756" stroke="#B85756"/>
 	</g>
 </svg>
