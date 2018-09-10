@@ -73,7 +73,7 @@
 	}
 
 	svg {
-		width:10vmin;
-		height:10vmin;
+		width: 10vmin;
+		height: 10vmin;
 	}
 </style>
