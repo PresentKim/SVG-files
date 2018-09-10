@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+	<title>RewardBox</title>
 	<circle id="background" fill="#45B39C" cx="512" cy="512" r="512"/>
 	<path fill="#E1E6E9" d="M352 300h320v179H352z"/>
 	<path fill="#EBF0F3" d="M296 363h432v179H296z"/>

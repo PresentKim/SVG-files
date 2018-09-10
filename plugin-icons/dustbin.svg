@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+	<title>Dustbin</title>
 	<circle id="background" fill="#dedeca" cx="512" cy="512" r="512"/>
 	<path opacity="0.2" d="M672 784H352l-12-1 26-31h306l14-2 18 26c-10 5-21 8-32 8m-381-43l-3-21V400v288c0 15 5 29 14 40l-11 13"/>
 	<path fill="#fffffe" d="M352 720c-18 0-32-14-32-32V368c0-18 14-32 32-32h320c18 0 32 14 32 32v320c0 18-14 32-32 32H352"/>

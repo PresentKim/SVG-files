@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+	<title>NbsPlayer</title>
 	<circle id="background" fill="#25B7D3" cx="512" cy="512" r="512"/>
 	<path fill="#F0F1F1" d="M642 698c0 21-16 37-37 37h-56c-20 0-37-16-37-37V326c0-21 17-37 37-37h56c21 0 37 16 37 37z"/>
 	<path fill="#FFFFFF" d="M642 423v-97c0-21-16-37-37-37h-56c-20 0-37 16-37 37v227z"/>

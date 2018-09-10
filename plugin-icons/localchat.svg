@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+	<title>LocalChat</title>
 	<circle id="background" fill="#25B7D3" cx="512" cy="512" r="512"/>
 	<path fill="#FFFFFF" opacity="0.4" d="M363 624c0 20 17 37 37 37h224l111 112V661h38c20 0 37-17 37-37V326c0-21-17-37-37-37H400c-20 0-37 16-37 37z"/>
 	<path fill="#F0F1F1" d="M661 549c0 21-17 37-37 37H400L289 698V586h-38c-20 0-37-16-37-37V251c0-20 17-37 37-37h373c20 0 37 17 37 37z"/>

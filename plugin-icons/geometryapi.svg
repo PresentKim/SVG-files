@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+	<title>GeometryAPI</title>
 	<!--
-	[Color Info]
-		"background"	nord0 (#2e3440)
-		"box"			nord3 (#4c566a)
-		"graph"			nord8 (#88c0d0)
-	-->
+		[Color Info]
+			"background"	nord0 (#2e3440)
+			"box"			nord3 (#4c566a)
+			"graph"			nord8 (#88c0d0)
+		-->
 	<circle id="background" fill="#2e3440" cx="512" cy="512" r="512"/>
 	<g id="box">
 		<polygon fill="#4c566a" points="512,790 792,675 792,370 512,255 237,370 237,675"/>

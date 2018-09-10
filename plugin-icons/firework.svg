@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+	<title>Firework</title>
 	<circle id="background" fill="#357180" cx="512" cy="512" r="512"/>
 	<path fill="#6e5538" d="M543 240c6 0 11 2 16 5M504 543c-9 0-15 7-15 16v355c0 9 6 16 15 16 8 0 14-7 14-16V559c0-9-6-16-14-16z"/>
 	<path fill="#8c8c8c" d="M540 782c-3 0-5-1-7-3l-40-49a8 8 0 1 1 12-10l41 49a8 8 0 0 1-6 13z"/>

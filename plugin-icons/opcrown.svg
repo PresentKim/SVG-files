@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+	<title>OpCrown</title>
 	<circle id="background" fill="#344E5D" cx="512" cy="512" r="512"/>
 	<path fill="#DEBA24" d="M724 751c0 29-24 53-54 53H355c-29 0-53-24-53-53l-67-173c0-30 24-53 54-53h448c29 0 53 23 53 53z"/>
 	<path fill="#DEBA24" d="M410 701a49 49 0 1 1-85 47L158 437a49 49 0 1 1 86-47zm0 0M615 701a49 49 0 1 0 86 47l166-311a49 49 0 1 0-85-47zm0 0M567 701a49 49 0 0 1-97 0l2-353a49 49 0 0 1 97 0z"/>
