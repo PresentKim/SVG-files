@@ -7,8 +7,7 @@
 			L stroke	nord1 (#3b4252)
 		"particle"		nord1 (#3b4252)
 		"needle"		nord4 (#d8dee9)
-			L "point"	nord0 (#2e3440)
-			L "center"	nord1 (#3b4252)
+			L stroke	nord0 (#2e3440)
 	-->
 	<circle id="background" fill="#4c566a" cx="512" cy="512" r="480" stroke="#2e3440" stroke-width="64"/>
 	<rect id="badge" fill="#5e81ac" x="467" y="8" width="90" height="50" rx="30" ry="30" stroke="#3b4252" stroke-width="10"/>
@@ -25,8 +24,8 @@
 		<use xlink:href="#pentagon" x="512" y="512" transform="rotate(270,512,512)"/>
 		<use xlink:href="#pentagon" x="512" y="512" transform="rotate(315,512,512)"/>
 	</g>
-	<g id="needle" fill="#d8dee9" stroke-width="16" stroke-linejoin="round">
-		<polygon id="needle-point" stroke="#2e3440" points="740,184 480,480 284,840 544,544"/>
-		<circle id="needle-center" stroke="#3b4252" cx="512" cy="512" r="96"/>
+	<g id="needle" fill="#d8dee9" stroke="#2e3440" stroke-width="16" stroke-linejoin="round">
+		<polygon id="needle-point" points="740,184 480,480 284,840 544,544"/>
+		<circle id="needle-center" cx="512" cy="512" r="96"/>
 	</g>
 </svg>
