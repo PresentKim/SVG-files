@@ -1,10 +1,10 @@
 <template>
 	<div id="app">
 		<div id="filters">
-			<div v-for="newFilter in filters" :class="{active: filter === newFilter}" class="filter" @click="selectFilter(newFilter)">{{ newFilter }}</div>
+			<div v-for="newFilter in filters" :class="{active: filter === newFilter}" class="filter" @click="filter = newFilter">{{ newFilter }}</div>
 		</div>
 		<div id="svgs">
-			<div v-for="svg in list" :class="{hide: !svg.active}" v-html="svg.src"></div>
+			<div v-for="svg in list" :class="{hide: filter !== `all` && !svg.tags.includes(filter)}" v-html="svg.src"></div>
 		</div>
 		<div id="github">
 			<a href="https://github.com/PresentKim/SVG-files/">View SVG</a>
@@ -22,16 +22,6 @@
 				filters: [`all`],
 				filter: `all`,
 				list: []
-			}
-		},
-		methods: {
-			selectFilter: function (newFilter) {
-				if (this.filter !== newFilter) {
-					this.filter = newFilter;
-					this.list.forEach(svg => {
-						svg.active = newFilter === `all` || svg.tags.includes(newFilter)
-					});
-				}
 			}
 		},
 		mounted() {
@@ -65,8 +55,6 @@
 				{path: `plugin-icons/virtualchest`, tags: [`pmmp-plugin`, `nord`]},
 				{path: `plugin-icons/writecheck`, tags: [`pmmp-plugin`, `nord`]}
 			].forEach(svg => {
-				svg.active = true;
-
 				let app = this;
 				let xhr = new XMLHttpRequest();
 				xhr.open(`GET`, `https://raw.githubusercontent.com/PresentKim/SVG-files/master/${svg.path}.svg`, true);
