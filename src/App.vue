@@ -64,7 +64,7 @@
 	@import "nord.scss";
 
 	body {
-		background-color: $nord0;
+		background-color: $nord1;
 		color: $nord8;
 	}
 </style>
