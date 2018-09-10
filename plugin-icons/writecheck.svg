@@ -18,7 +18,7 @@
 				<circle cx="741" cy="365" r="60"/>
 				<circle cx="741" cy="627" r="60"/>
 			</g>
-			<path id="banknote-centerball" d="M576 496a96 96 0 1 1-192 0 96 96 0 0 1 192 0"/>
+			<circle id="banknote-centerball" cx="480" cy="496" r="96"/>
 			<g id="banknote">
 				<use xlink:href="#banknote-background" id="banknote-shadow" stroke="#000" opacity="0.2" x="32" y="32"/>
 
