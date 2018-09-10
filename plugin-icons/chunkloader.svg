@@ -1,8 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
-	<circle id="background" fill="#25b7d3" cx="512" cy="512" r="512"/>
-	<rect id="board-border" fill="none" x="172" y="172" width="668" height="668" rx="30" ry="30" stroke="#84462d" stroke-width="52"/>
-	<rect id="board-background" fill="#ffffff" x="188" y="188" width="648" height="648"/>
-	<g id="board-tile" fill="#3e3e3f">
+	<!--
+	[Color Info]
+		"background"		nord0 (#2e3440)
+		"board-border"		nord3 (#4c566a)
+		"board-background"	nord4 (#d8dee9)
+		"board-tile"		nord0 (#2e3440)
+			L "Backlight"	nord2 (#434c5e)
+		"chessman"			nord4 (#d8dee9)
+	-->
+	<circle id="background" fill="#2e3440" cx="512" cy="512" r="512"/>
+	<rect id="board-border" x="172" y="172" width="668" height="668" rx="30" ry="30" stroke="#4c566a" stroke-width="52"/>
+	<rect id="board-background" fill="#d8dee9" x="188" y="188" width="648" height="648"/>
+	<g id="board-tile" fill="#2e3440">
 		<polygon points="
 		188,512 188,350 350,350 350,188 512,188 512,350 
 		674,350 674,188 836,188 836,350 674,350 674,512 
@@ -10,9 +19,9 @@
 		674,674 674,512 512,512 512,350 350,350 350,512 
 		512,512 512,674 350,674 350,836 188,836 188,674 
 		350,674 350,512"/>
-		<polygon id="board-tile-Backlight" fill="#5b5c5f" points="188,512 512,188 350,188 350,350 188,350"/>
+		<polygon id="board-tile-Backlight" fill="#434c5e" points="188,512 512,188 350,188 350,350 188,350"/>
 	</g>
-	<g id="chessman" fill="#ffffff">
+	<g id="chessman" fill="#d8dee9">
 		<circle cx="269" cy="755" r="36"/>
 		<circle cx="431" cy="593" r="36"/>
 		<circle cx="593" cy="755" r="36"/>
