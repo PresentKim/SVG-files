@@ -6,6 +6,11 @@
 		<div id="svgs">
 			<div v-for="svg in list" :class="{hide: !svg.active}" v-html="svg.src"></div>
 		</div>
+		<div id="github">
+			<a href="https://github.com/PresentKim/SVG-files/">View SVG</a>
+			|
+			<a href="https://github.com/PresentKim/SVG-files/tree/gh-pages">View Source</a>
+		</div>
 	</div>
 </template>
 
@@ -136,6 +141,25 @@
 					svg {
 						width: inherit;
 						height: inherit;
+					}
+				}
+			}
+
+			#github {
+				position: absolute;
+				right: 2vmin;
+				bottom: 2vmin;
+				a {
+					cursor: pointer;
+					color: $nord8;
+					font-size: 2vmin;
+					text-decoration: none;
+					border-top: 0.3vmin solid #00000000;
+					border-bottom: 0.3vmin solid #00000000;
+
+					&:hover {
+						border-top: 0.3vmin solid $nord8;
+						border-bottom: 0.3vmin solid $nord8;
 					}
 				}
 			}
