@@ -97,40 +97,37 @@
 		margin: 0;
 
 		#app {
-			display: flex;
-			flex-direction: column;
 			width: 100%;
+			height: 100%;
 
 			#filters {
-				width: 72vmin;
-				margin: 1vmin auto 0 auto;
+				margin: 10pt auto 0 auto;
 				text-align: center;
 
 				.filter {
 					display: inline-block;
 					text-transform: uppercase;
-					font-size: 2vmin;
-					margin: 1vmin;
+					font-size: 24pt;
+					margin: 10pt;
 					cursor: pointer;
 					color: $nord3;
 					border-bottom: 2px solid $nord3;
 
 					&.active {
 						color: $nord4;
-						border-bottom: 1px solid #fff;
 						border-bottom: 2px solid $nord8;
 					}
 				}
 			}
 
 			#svgs {
-				width: 72vmin;
+				width: 70%;
 				margin: 0 auto;
 				div {
-					width: 10vmin;
-					height: 10vmin;
+					width: 70pt;
+					height: 70pt;
 					display: inline-block;
-					margin: 1vmin;
+					margin: 5pt;
 					transition: .5s ease-in-out;
 
 					&.hide {
@@ -150,19 +147,19 @@
 
 			#github {
 				position: absolute;
-				right: 2vmin;
-				bottom: 2vmin;
+				right: 16pt;
+				bottom: 16pt;
 				a {
 					cursor: pointer;
 					color: $nord8;
-					font-size: 2vmin;
+					font-size: 16pt;
 					text-decoration: none;
-					border-top: 0.3vmin solid #00000000;
-					border-bottom: 0.3vmin solid #00000000;
+					border-top: 3pt solid #00000000;
+					border-bottom: 3pt solid #00000000;
 
 					&:hover {
-						border-top: 0.3vmin solid $nord8;
-						border-bottom: 0.3vmin solid $nord8;
+						border-top: 3pt solid $nord8;
+						border-bottom: 3pt solid $nord8;
 					}
 				}
 			}
