@@ -48,14 +48,17 @@
 			for (let i in svgList) {
 				let svg = svgList[i];
 
+				let app = this;
 				let xhr = new XMLHttpRequest();
-				xhr.open(`GET`, `https://raw.githubusercontent.com/PresentKim/SVG-files/master/${svg.path}.svg`, false);
+				xhr.open(`GET`, `https://raw.githubusercontent.com/PresentKim/SVG-files/master/${svg.path}.svg`, true);
 				xhr.setRequestHeader(`Content-Type`, `text/plain`);
 				xhr.send();
-				if (xhr.status === 200) {
-					svg.src = xhr.response;
-					this.list.push(svg);
-				}
+				xhr.onload = function () {
+					if (xhr.status === 200) {
+						svg.src = xhr.response;
+						app.list.push(svg);
+					}
+				};
 			}
 		}
 	}
