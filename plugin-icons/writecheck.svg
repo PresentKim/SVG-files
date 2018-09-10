@@ -12,7 +12,12 @@
 	<g id="simbol" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<defs>
 			<rect id="banknote-background" x="178" y="320" width="608" height="352" rx="30" ry="30" stroke-width="32"/>
-			<path id="banknote-borderball" d="M671 368.5a64.5 64.5 0 1 0 129 0 64.5 64.5 0 0 0-129 0M159.5 368.5a64.5 64.5 0 1 0 129 2 64.5 64.5 0 0 0-129-2M671 624a64.5 64.5 0 1 0 129 2 64.5 64.5 0 0 0-129-2M159.5 624a64.5 64.5 0 1 0 129 0 64.5 64.5 0 0 0-129 0"/>
+			<g id="banknote-borderball">
+				<circle cx="223" cy="365" r="60"/>
+				<circle cx="223" cy="627" r="60"/>
+				<circle cx="741" cy="365" r="60"/>
+				<circle cx="741" cy="627" r="60"/>
+			</g>
 			<path id="banknote-centerball" d="M576 496a96 96 0 1 1-192 0 96 96 0 0 1 192 0"/>
 			<g id="banknote">
 				<use xlink:href="#banknote-background" id="banknote-shadow" stroke="#000" opacity="0.2" x="32" y="32"/>
