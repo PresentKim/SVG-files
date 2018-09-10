@@ -60,7 +60,7 @@
 				{path: `plugin-icons/rewardbox`, tags: [`pmmp-plugin`]},
 				{path: `plugin-icons/showcoordinates`, tags: [`pmmp-plugin`]},
 				{path: `plugin-icons/startkit`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/targerselector`, tags: [`pmmp-plugin`, `nord`]},
+				{path: `plugin-icons/targetselector`, tags: [`pmmp-plugin`, `nord`]},
 				{path: `plugin-icons/topmoneynpc`, tags: [`pmmp-plugin`]},
 				{path: `plugin-icons/virtualchest`, tags: [`pmmp-plugin`, `nord`]},
 				{path: `plugin-icons/writecheck`, tags: [`pmmp-plugin`, `nord`]}
