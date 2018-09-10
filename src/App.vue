@@ -1,7 +1,12 @@
 <template>
 	<div id="app">
+		<div class="filters">
+			<div v-for="filter in filters">
+				<div :class="{active: selectedFilter === filter}" class="filter" @click="selectFilter(filter)">{{ filter }}</div>
+			</div>
+		</div>
 		<div v-for="svg in list">
-			<div v-html="svg.src"></div>
+			<div :class="{hide: !svg.active}" v-html="svg.src"></div>
 		</div>
 	</div>
 </template>
@@ -11,7 +16,19 @@
 		name: `app`,
 		data() {
 			return {
+				filters: [`all`],
+				selectedFilter: `all`,
 				list: []
+			}
+		},
+		methods: {
+			selectFilter: function (filter) {
+				if (this.selectedFilter !== filter) {
+					this.selectedFilter = filter;
+					for (let i in this.list) {
+						this.list[i].active = filter === `all` || this.list[i].tags.includes(filter);
+					}
+				}
 			}
 		},
 		mounted() {
@@ -47,6 +64,7 @@
 			];
 			for (let i in svgList) {
 				let svg = svgList[i];
+				svg.active = true;
 
 				let app = this;
 				let xhr = new XMLHttpRequest();
@@ -57,6 +75,11 @@
 					if (xhr.status === 200) {
 						svg.src = xhr.response;
 						app.list.push(svg);
+						for (let j in svg.tags) {
+							if (!app.filters.includes(svg.tags[j])) {
+								app.filters.push(svg.tags[j]);
+							}
+						}
 					}
 				};
 			}
