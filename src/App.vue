@@ -1,12 +1,10 @@
 <template>
 	<div id="app">
-		<div class="filters">
-			<div v-for="filter in filters">
-				<div :class="{active: selectedFilter === filter}" class="filter" @click="selectFilter(filter)">{{ filter }}</div>
-			</div>
+		<div id="filters">
+			<div v-for="filter in filters" :class="{active: selectedFilter === filter}" class="filter" @click="selectFilter(filter)">{{ filter }}</div>
 		</div>
-		<div v-for="svg in list">
-			<div :class="{hide: !svg.active}" v-html="svg.src"></div>
+		<div id="svgs">
+			<div v-for="svg in list" :class="{hide: !svg.active}" v-html="svg.src"></div>
 		</div>
 	</div>
 </template>
@@ -91,10 +89,56 @@
 	body {
 		background-color: $nord1;
 		color: $nord8;
-	}
+		margin: 0;
 
-	svg {
-		width: 10vmin;
-		height: 10vmin;
+		#app {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+
+			#filters {
+				width: 72vmin;
+				margin: 1vmin auto 0 auto;
+				text-align: center;
+
+				.filter {
+					display: inline-block;
+					text-transform: uppercase;
+					font-size: 2vmin;
+					margin: 1vmin;
+					cursor: pointer;
+
+					&.active {
+						color: $nord4;
+						border-bottom: 1px solid #fff;
+					}
+				}
+			}
+
+			#svgs {
+				width: 72vmin;
+				margin: 0 auto;
+				div {
+					width: 10vmin;
+					height: 10vmin;
+					display: inline-block;
+					margin: 1vmin;
+					transition: .5s ease-in-out;
+
+					&.hide {
+						visibility: hidden;
+						opacity: 0;
+						width: 0;
+						height: 0;
+						margin: 0;
+					}
+
+					svg {
+						width: inherit;
+						height: inherit;
+					}
+				}
+			}
+		}
 	}
 </style>
