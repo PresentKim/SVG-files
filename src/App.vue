@@ -95,6 +95,9 @@
 		background-color: $nord1;
 		color: $nord8;
 		margin: 0;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		user-select: none;
 
 		#app {
 			width: 100%;
