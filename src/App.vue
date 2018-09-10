@@ -20,8 +20,19 @@
 		data() {
 			return {
 				filters: [`all`],
-				filter: `all`,
 				list: []
+			}
+		},
+		computed: {
+			filter: {
+				get: function () {
+					let filter = this.$route.query.filter;
+					return filter === undefined ? `all` : filter;
+				},
+				set: function (newFilter) {
+					let query = newFilter === `all` ? {} : {filter: newFilter};
+					this.$router.push({query});
+				}
 			}
 		},
 		mounted() {
