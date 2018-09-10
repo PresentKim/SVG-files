@@ -68,4 +68,9 @@
 		background-color: $nord1;
 		color: $nord8;
 	}
+
+	svg {
+		width:10vmin;
+		height:10vmin;
+	}
 </style>
