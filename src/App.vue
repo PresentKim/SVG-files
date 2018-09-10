@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
 		<div id="filters">
-			<div v-for="filter in filters" :class="{active: selectedFilter === filter}" class="filter" @click="selectFilter(filter)">{{ filter }}</div>
+			<div v-for="newFilter in filters" :class="{active: filter === newFilter}" class="filter" @click="selectFilter(newFilter)">{{ newFilter }}</div>
 		</div>
 		<div id="svgs">
 			<div v-for="svg in list" :class="{hide: !svg.active}" v-html="svg.src"></div>
@@ -20,16 +20,16 @@
 		data() {
 			return {
 				filters: [`all`],
-				selectedFilter: `all`,
+				filter: `all`,
 				list: []
 			}
 		},
 		methods: {
-			selectFilter: function (filter) {
-				if (this.selectedFilter !== filter) {
-					this.selectedFilter = filter;
+			selectFilter: function (newFilter) {
+				if (this.filter !== newFilter) {
+					this.filter = newFilter;
 					this.list.forEach(svg => {
-						svg.active = filter === `all` || svg.tags.includes(filter)
+						svg.active = newFilter === `all` || svg.tags.includes(newFilter)
 					});
 				}
 			}
