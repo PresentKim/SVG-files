@@ -112,10 +112,13 @@
 					font-size: 2vmin;
 					margin: 1vmin;
 					cursor: pointer;
+					color: $nord3;
+					border-bottom: 2px solid $nord3;
 
 					&.active {
 						color: $nord4;
 						border-bottom: 1px solid #fff;
+						border-bottom: 2px solid $nord8;
 					}
 				}
 			}
