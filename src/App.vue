@@ -1,6 +1,7 @@
 <template>
 	<div id="app">
-		<div v-for="svg in list" v-html="svg.src">
+		<div v-for="svg in list">
+			<div v-html="svg.src"></div>
 		</div>
 	</div>
 </template>
