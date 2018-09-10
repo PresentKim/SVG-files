@@ -25,14 +25,14 @@
 			selectFilter: function (filter) {
 				if (this.selectedFilter !== filter) {
 					this.selectedFilter = filter;
-					for (let i in this.list) {
-						this.list[i].active = filter === `all` || this.list[i].tags.includes(filter);
-					}
+					this.list.forEach(svg => {
+						svg.active = filter === `*` || svg.tags.includes(filter)
+					});
 				}
 			}
 		},
 		mounted() {
-			let svgList = [
+			[
 				{path: `profiles/presentkim`, tags: [`profiles`]},
 				{path: `profiles/blugin`, tags: [`profiles`]},
 				{path: `plugin-icons/buoycompass`, tags: [`pmmp-plugin`, `nord`]},
@@ -61,9 +61,7 @@
 				{path: `plugin-icons/topmoneynpc`, tags: [`pmmp-plugin`]},
 				{path: `plugin-icons/virtualchest`, tags: [`pmmp-plugin`, `nord`]},
 				{path: `plugin-icons/writecheck`, tags: [`pmmp-plugin`, `nord`]}
-			];
-			for (let i in svgList) {
-				let svg = svgList[i];
+			].forEach(svg => {
 				svg.active = true;
 
 				let app = this;
@@ -75,14 +73,14 @@
 					if (xhr.status === 200) {
 						svg.src = xhr.response;
 						app.list.push(svg);
-						for (let j in svg.tags) {
-							if (!app.filters.includes(svg.tags[j])) {
-								app.filters.push(svg.tags[j]);
+						svg.tags.forEach(tag => {
+							if (!app.filters.includes(tag)) {
+								app.filters.push(tag);
 							}
-						}
+						});
 					}
 				};
-			}
+			});
 		}
 	}
 </script>
