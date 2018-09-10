@@ -4,7 +4,7 @@
 			<div v-for="newFilter in filters" :class="{active: filter === newFilter}" class="filter" @click="filter = newFilter">{{ newFilter }}</div>
 		</div>
 		<div id="svgs">
-			<div v-for="svg in list" :class="{hide: filter !== `all` && !svg.tags.includes(filter)}" v-html="svg.src"></div>
+			<div v-for="svg in svgs" :class="{hide: filter !== `all` && !svg.tags.includes(filter)}" v-html="svg.src"></div>
 		</div>
 		<div id="github">
 			<a href="https://github.com/PresentKim/SVG-files/">View SVG</a>
@@ -20,7 +20,7 @@
 		data() {
 			return {
 				filters: [`all`],
-				list: []
+				svgs: []
 			}
 		},
 		computed: {
@@ -74,7 +74,7 @@
 				xhr.onload = function () {
 					if (xhr.status === 200) {
 						svg.src = xhr.response;
-						app.list.push(svg);
+						app.svgs.push(svg);
 						svg.tags.forEach(tag => {
 							if (!app.filters.includes(tag)) {
 								app.filters.push(tag);
