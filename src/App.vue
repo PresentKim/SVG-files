@@ -26,7 +26,7 @@
 				if (this.selectedFilter !== filter) {
 					this.selectedFilter = filter;
 					this.list.forEach(svg => {
-						svg.active = filter === `*` || svg.tags.includes(filter)
+						svg.active = filter === `all` || svg.tags.includes(filter)
 					});
 				}
 			}
