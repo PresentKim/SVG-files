@@ -15,6 +15,7 @@
 </template>
 
 <script>
+	import svgsJson from './svgs.json';
 	export default {
 		name: `app`,
 		data() {
@@ -36,36 +37,7 @@
 			}
 		},
 		mounted() {
-			[
-				{path: `profiles/presentkim`, tags: [`profiles`]},
-				{path: `profiles/blugin`, tags: [`profiles`]},
-				{path: `plugin-icons/buoycompass`, tags: [`pmmp-plugin`, `nord`]},
-				{path: `plugin-icons/chunkloader`, tags: [`pmmp-plugin`, `nord`]},
-				{path: `plugin-icons/dustbin`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/firework`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/geometryapi`, tags: [`pmmp-plugin`, `nord`]},
-				{path: `plugin-icons/headshot`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/hotbox`, tags: [`pmmp-plugin`, `nord`]},
-				{path: `plugin-icons/humanoid`, tags: [`pmmp-plugin`, `nord`]},
-				{path: `plugin-icons/ignorecase`, tags: [`pmmp-plugin`, `nord`]},
-				{path: `plugin-icons/instantenchant`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/inventorymonitor`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/itempopup`, tags: [`pmmp-plugin`, `nord`]},
-				{path: `plugin-icons/lifespan`, tags: [`pmmp-plugin`, `nord`]},
-				{path: `plugin-icons/localchat`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/lullaby`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/makepluginplus`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/nbsplayer`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/opcrown`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/realisticcompass`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/rewardbox`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/showcoordinates`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/startkit`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/targetselector`, tags: [`pmmp-plugin`, `nord`]},
-				{path: `plugin-icons/topmoneynpc`, tags: [`pmmp-plugin`]},
-				{path: `plugin-icons/virtualchest`, tags: [`pmmp-plugin`, `nord`]},
-				{path: `plugin-icons/writecheck`, tags: [`pmmp-plugin`, `nord`]}
-			].forEach(svg => {
+			svgsJson.forEach(svg => {
 				let app = this;
 				let xhr = new XMLHttpRequest();
 				xhr.open(`GET`, `https://raw.githubusercontent.com/PresentKim/SVG-files/master/${svg.path}.svg`, true);
