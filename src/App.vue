@@ -16,6 +16,7 @@
 
 <script>
 	import svgsJson from './svgs.json';
+
 	export default {
 		name: `app`,
 		data() {
