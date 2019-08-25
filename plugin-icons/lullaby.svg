@@ -1,15 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<title>Lullaby</title>
-	<circle id="background" fill="#D5915B" cx="512" cy="512" r="512"/>
+	<!--
+	[Color Info]
+		"background"	nord0 (#2e3440)
+		"battery"	nord1 (#3B4252)
+		"low-battery"	nord11 (#BF616A)
+	-->
+	<circle id="background" fill="#2e3440" cx="512" cy="512" r="512"/>
 	<g id="simbol" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<defs>
-			<g id="battery">
+		<g id="battery" fill="#434C5E">
 				<path d="M800 416h-32v192h32c18 0 32-14 32-32V448c0-18-14-32-32-32"/>
 				<path d="M240 640h480V384H240zm496-304H224c-18 0-32 14-32 32v288c0 18 14 32 32 32h512c18 0 32-14 32-32V368c0-18-14-32-32-32z"/>
-			</g>
-		</defs>
-		<use xlink:href="#battery" opacity="0.15" y="32"/>
-		<use xlink:href="#battery" fill="#4C5665"/>
-		<path fill="#B85756" d="M272 608h176V416H272z"/>
+		</g>
+		<path id="low-battery" fill="#BF616A" opacity="0.7" d="M272 608h176V416H272z"/>
 	</g>
 </svg>
