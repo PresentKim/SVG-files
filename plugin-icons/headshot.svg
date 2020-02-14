@@ -1,19 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<title>HeadShot</title>
-	<circle id="background" fill="#344e5d" cx="512" cy="512" r="512"/>
-	<g id="ring" fill="none">
-		<circle stroke="#d35959" stroke-width="50" cx="512" cy="512" r="305"/>
-		<circle stroke="#d35959" stroke-width="35" cx="512" cy="512" r="220"/>
-		<circle stroke="#cd4f4f" stroke-width="30" cx="512" cy="512" r="140"/>
+	<!--
+		[Color Info]
+			"background"		nord0  (#2e3440)
+			"ring"				nord3  (#4c566a)
+			"gold"				nord11 (#BF616A)
+			"arrow-feathering"	nord8  (#88c0d0)
+			"arrow-shaft"		nord13 (#EBCB8B)
+		-->
+	<circle id="background" fill="#2e3440" cx="512" cy="512" r="512"/>
+	<g id="ring" fill="none" stroke="#4c566a" stroke-width="50" >
+		<circle cx="512" cy="512" r="400"/>
+		<circle cx="512" cy="512" r="275"/>
+		<circle cx="512" cy="512" r="150"/>
 	</g>
-	<circle id="gold" fill="#c54342" cx="512" cy="512" r="56"/>
+	<circle id="gold" fill="#BF616A" cx="512" cy="512" r="72"/>
 	<g id="arrow">
-		<polygon id="arrow-feathering-1" fill="#c93435" points="675,360 810,225 890,245 755,375"/>
-		<g id="arrow-shaft">
-			<polygon fill="#e79e2d" points="525,535 495,535 495,495 795,200 825,205 830,235"/>
-			<polygon fill="#f2be3e" points="825,205 495,535 495,495 795,200"/>
-			<polygon fill="#f9ca62" points="825,205 795,200 800,230 830,235"/>
-		</g>
-		<polygon id="arrow-feathering-2" fill="#c93435" points="575,335 710,205 790,220 655,355"/>
+		<polygon id="arrow-feathering-1" fill="#BF616A" points="675,360 810,225 890,245 755,375"/>
+		<polygon id="arrow-shaft" fill="#EBCB8B" points="525,535 495,535 495,495 795,200 825,205 830,235"/>
+		<polygon id="arrow-feathering-2" fill="#BF616A" points="575,335 710,205 790,220 655,355"/>
 	</g>
 </svg>
