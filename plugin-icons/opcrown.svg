@@ -1,15 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<title>OpCrown</title>
-	<!--
-	[Color Info]
-		"background"	nord0 	(#2e3440)
-		"pad"					nord4		(#D8DEE9)
-		"pad-ball"		nord0		(#2e3440)
-		"stick"				nord12	(#D08770)
-		"ball"				nord11 	(#BF616A)
-	-->
-	<circle id="background" fill="#2e3440" cx="512" cy="512" r="512"/>
-	<g id="crown" fill="#D8DEE9">
+	<circle id="background" fill="#445566" cx="512" cy="512" r="480" stroke="#2e3440" stroke-width="64"/>
+	<path fill="none" stroke="#99FF99" stroke-width="16" stroke-linecap="round" stroke-dasharray="2048, 128"	stroke-dashoffset="1024" d="M 512 32 a 480 480 0 0 1 0 960 a 480 480 0 0 1 0 -960"/>
+	<g id="crown" fill="#99FF99">
 		<path d="M724 751c0 29-24 53-54 53H355c-29 0-53-24-53-53l-67-173c0-30 24-53 54-53h448c29 0 53 23 53 53z"/>
 		<path d="M410 701a49 49 0 1 1-85 47L158 437a49 49 0 1 1 86-47zm0 0M615 701a49 49 0 1 0 86 47l166-311a49 49 0 1 0-85-47zm0 0M567 701a49 49 0 0 1-97 0l2-353a49 49 0 0 1 97 0z"/>
 		<path d="M221 369s150 93 262-52l-8 214-157 17zm0 0M807 368s-133 100-245-45l-6 211 156 18z"/>

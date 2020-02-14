@@ -1,16 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<title>HotBox</title>
-	<!--
-	[Color Info]
-		"background"	nord0 (#2e3440)
-		"fire"			nord4 (#d8dee9)
-	-->
-	<circle id="background" fill="#2e3440" cx="512" cy="512" r="512"/>
+	<circle id="background" fill="#445566" cx="512" cy="512" r="480" stroke="#2e3440" stroke-width="64"/>
+	<path fill="none" stroke="#99FF99" stroke-width="16" stroke-linecap="round" stroke-dasharray="2048, 128"	stroke-dashoffset="1024" d="M 512 32 a 480 480 0 0 1 0 960 a 480 480 0 0 1 0 -960"/>
 	<g id="simbol" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<defs>
 			<path id="fire" d="M450 897s-257-38-257-257 336-240 262-512c0 0 251 79 190 324 0 0 33-21 59-62 0 0 127 98 127 248S654 898 571 897c0 0 90-122 8-201-117-111-67-183-67-183s-284 139-62 384"/>
 		</defs>
 		<use xlink:href="#fire" opacity="0.2" y="32"/>
-		<use xlink:href="#fire" fill="#d8dee9"/>
+		<use xlink:href="#fire" fill="#99FF99"/>
 	</g>
 </svg>
