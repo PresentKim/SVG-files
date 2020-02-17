@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<title>InstantEnchant</title>
 	<circle id="background" fill="#445566" cx="512" cy="512" r="480" stroke="#2e3440" stroke-width="64"/>
-	<path fill="none" stroke="#99FF99" stroke-width="16" stroke-linecap="round" stroke-dasharray="2048, 128"	stroke-dashoffset="1024" d="M 512 32 a 480 480 0 0 1 0 960 a 480 480 0 0 1 0 -960"/>
+	<path fill="none" stroke="#99FF99" stroke-width="32" stroke-linecap="round" stroke-dasharray="2048, 128"	stroke-dashoffset="1024" d="M 512 32 a 480 480 0 0 1 0 960 a 480 480 0 0 1 0 -960"/>
 	<g id="stick" fill="#DD8877">
 		<path d="M411 391l472 473c11-11 21-22 30-34L447 381c-9-8-24-1-36 10zm0 0M403 425l-5-5 4 7 450 467h1z"/>
 		<path d="M398 420l5 5 450 469 30-30-472-473c-8 9-14 20-13 29z"/>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<title>MakePlugin+</title>
 	<circle id="background" fill="#445566" cx="512" cy="512" r="480" stroke="#2e3440" stroke-width="64"/>
-	<path fill="none" stroke="#99FF99" stroke-width="16" stroke-linecap="round" stroke-dasharray="2048, 128"	stroke-dashoffset="1024" d="M 512 32 a 480 480 0 0 1 0 960 a 480 480 0 0 1 0 -960"/>
+	<path fill="none" stroke="#99FF99" stroke-width="32" stroke-linecap="round" stroke-dasharray="2048, 128"	stroke-dashoffset="1024" d="M 512 32 a 480 480 0 0 1 0 960 a 480 480 0 0 1 0 -960"/>
 	<g id="simbol" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<defs>
 			<path id="gear" d="M512 672a160 160 0 1 1 0-320 160 160 0 0 1 0 320zm351-183c-1-9-8-18-16-21l-66-24c-9-3-18-12-21-20l-10-25c-4-8-4-21 0-29l30-63c4-8 2-20-4-27l-32-32c-7-6-19-8-27-4l-63 30c-8 4-21 4-29 0l-25-10c-8-3-17-12-20-21l-24-66c-3-8-12-15-21-16l-23-1-23 1c-9 1-18 8-21 16l-24 66c-3 9-12 18-20 21l-25 10c-8 4-21 4-29 0l-63-30c-8-4-20-2-27 4l-32 32c-6 7-8 19-4 27l30 63c4 8 4 21 0 29l-10 25c-3 8-12 17-21 20l-66 24c-8 3-15 12-16 21l-1 23 1 23c1 9 8 18 16 21l66 24c9 3 18 12 21 20l10 25c4 8 4 21 0 29l-30 63c-4 8-2 20 4 27l32 32c7 6 19 8 27 4l63-30c8-4 21-4 29 0l25 10c8 3 17 12 20 21l24 66c3 8 12 15 21 16l23 1 23-1c9-1 18-8 21-16l24-66c3-9 12-18 20-21l25-10c8-4 21-4 29 0l63 30c8 4 20 2 27-4l32-32c6-7 8-19 4-27l-30-63c-4-8-4-21 0-29l10-25c3-8 12-17 21-20l66-24c8-3 15-12 16-21l1-23-1-23z"/>
