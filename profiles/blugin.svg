@@ -4,6 +4,11 @@
 		<license>Creative Commons BY 4.0</license>
 		<url>https://creativecommons.org/licenses/by/4.0/</url>
 	</license-info>
+	<style>
+		*{
+			transform-box: fill-box; transform-origin: center;
+		}
+	</style>
 	<g id="dirt">
 		<!--
 			[Dirt Color Info]
@@ -16,29 +21,29 @@
 		<rect id="dirt-background" fill="#bb8044" width="1024" height="1024"/>
 		<g id="dirt-particle">
 			<g id="dirt-particle-1" fill="#9f6c39">
-				<path d="M440,920	l-155,-35	l30,-155	l155,35"/>
-				<path d="M860,380	l-60,65		l-65,-60	l60,-65"/>
+				<rect x="32%" y="72%" width="16%" height="16%" transform="rotate(12)"/>
+				<rect x="72%" y="32%" width="8%" height="8%" transform="rotate(42)"/>
 			</g>
 			<g id="dirt-particle-2" fill="#b17940">
-				<path d="M720,480	l55,70		l-70,55		l-55,-70"/>
-				<path d="M620,1024	l10,-80		l150,20		l-10,60"/>
-				<path d="M1024,280	l-100,20	l-30,-120	l120,-30"/>
-				<path d="M570,570	l-120,40	l-40,-120	l120,-40"/>
-				<path d="M175,310	l160,40		l-40,160	l-160,-40"/>
-				<path d="M850,480	l80,30		l-30,80		l-80,-30"/>
-				<path d="M680,710	l120,-40	l40,120		l-120,40"/>
-				<path d="M880,790	l90,10		l-10,90		l-90,-10"/>
+				<rect x="64%" y="48%" width="8%" height="8%" transform="rotate(52)"/>
+				<rect x="60%" y="93%" width="16%" height="16%" transform="rotate(8)"/>
+				<rect x="88%" y="22%" width="8%" height="8%" transform="rotate(-12)"/>
+				<rect x="42%" y="45%" width="12%" height="12%" transform="rotate(-16)"/>
+				<rect x="16%" y="32%" width="16%" height="16%" transform="rotate(16)"/>
+				<rect x="82%" y="48%" width="8%" height="8%" transform="rotate(16)"/>
+				<rect x="68%" y="68%" width="12%" height="12%" transform="rotate(-16)"/>
+				<rect x="86%" y="78%" width="8%" height="8%" transform="rotate(8)"/>
 			</g>
 			<g id="dirt-particle-3" fill="#c48647">
-				<path d="M0,550		l30,0		l10,90		l-40,0"/>
-				<path d="M1024,640	l-40,5		l-10,-90	l50,-5"/>
-				<path d="M500,300	l90,10		l-10,90		l-90,-10"/>
-				<path d="M240,800	l-70,20		l-20,-70	l70,-20"/>
+				<rect x="-4%" y="52%" width="12%" height="12%" transform="rotate(-8)"/>
+				<rect x="96%" y="54%" width="8%" height="8%" transform="rotate(-8)"/>
+				<rect x="50%" y="30%" width="8%" height="8%" transform="rotate(8)"/>
+				<rect x="16%" y="72%" width="8%" height="8%" transform="rotate(-16)"/>
 			</g>
 			<g id="dirt-particle-4" fill="#cd8c4a">
-				<path d="M170,560	l70,50		l-50,70		l-70,-50"/>
-				<path d="M130,980	l-90,10		l-10,-90	l90,-10"/>
-				<path d="M510,770	l80,-40		l40,80		l-80,40"/>
+				<rect x="14%" y="56%" width="8%" height="8%" transform="rotate(32)"/>
+				<rect x="4%" y="88%" width="8%" height="8%" transform="rotate(-8)"/>
+				<rect x="5%" y="74%" width="8%" height="8%" transform="rotate(-32)"/>
 			</g>
 		</g>
 	</g>
