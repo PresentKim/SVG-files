@@ -1,10 +1,10 @@
 <template>
 	<div id="app">
 		<div id="filters">
-			<div v-for="newFilter in filters" :class="{active: filter === newFilter}" class="filter" @click="filter = newFilter">{{ newFilter }}</div>
+			<div v-for="newFilter in filters" v-bind:key="newFilter" :class="{active: filter === newFilter}" class="filter" @click="filter = newFilter">{{ newFilter }}</div>
 		</div>
 		<div id="svgs">
-			<div v-for="svg in svgs" :class="{hide: filter !== `all` && !svg.tags.includes(filter)}" v-html="svg.src"></div>
+			<div v-for="svg in svgs" v-bind:key="svg.src" :class="{hide: filter !== `all` && !svg.tags.includes(filter)}" v-html="svg.src"></div>
 		</div>
 		<div id="github">
 			<a href="https://github.com/PresentKim/SVG-files/">View SVG</a>
