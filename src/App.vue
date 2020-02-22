@@ -12,10 +12,10 @@
 			<a href="https://github.com/PresentKim/SVG-files/tree/gh-pages">View Source</a>
 		</div>
 
-		<div id="contextmenu" tabindex="-1" v-if="viewMenu" ref="right" @blur="closeMenu" :style="{top: top, left: left}">
-			<li>Download to SVG</li>
-			<li>Download to PNG</li>
-		</div>
+		<ul id="contextmenu" tabindex="-1" v-if="viewMenu & svgElement != null" ref="right" @blur="closeMenu" v-bind:style="{top: top, left: left}">
+			<li @click="downloadSVG">Download to SVG</li>
+			<li @click="downloadPNG">Download to PNG</li>
+		</ul>
 	</div>
 </template>
 
@@ -29,6 +29,7 @@
 				filters: [`all`],
 				svgs: [],
 				viewMenu: false,
+				svgElement: null,
 				top: `0px`,
 				left: `0px`
 			}
@@ -81,6 +82,33 @@
 			closeMenu: function() {
 				this.viewMenu = false;
 				this.svgElement = null;
+			},
+			download(href, filename){
+				let a = document.createElement(`a`);
+				a.href = href;
+				a.download = filename;
+				document.body.appendChild(a);
+				a.click();
+				document.body.removeChild(a);
+			},
+			downloadSVG: function(){
+				let title = this.svgElement.querySelector(`title`).innerHTML;
+				this.download(URL.createObjectURL(new Blob([this.svgElement.outerHTML], {type: `image/svg+xml;charset=utf-8`})), `${title}.svg`);
+			},
+			downloadPNG: function(){
+				let title = this.svgElement.querySelector(`title`).innerHTML;
+				let filename = `${title}.png`;
+
+				let canvas = document.createElement(`canvas`);
+				canvas.width = this.svgElement.getAttribute(`width`) | 0;
+				canvas.height = this.svgElement.getAttribute(`height`) | 0;
+				let img = document.createElement(`img`);
+				const app = this;
+				img.onload = function () {
+					canvas.getContext(`2d`).drawImage(img, 0, 0);
+					app.download(canvas.toDataURL(`image/png`).replace(/^data:image\/[^;]*/, `data:application/octet-stream`), filename);
+				};
+				img.src = URL.createObjectURL(new Blob([this.svgElement.outerHTML], {type: `image/svg+xml`}));
 			}
 		}
 	}
