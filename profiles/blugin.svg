@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<title>Blugin</title>
 	<license-info>
 		<license>Creative Commons BY 4.0</license>
@@ -18,7 +18,7 @@
 				"dirt-particle-3"	#c48647 = hsv(30°, 64%, 77%)
 				"dirt-particle-4"	#cd8c4a = hsv(30°, 64%, 80%)
 		-->
-		<rect id="dirt-background" fill="#bb8044" width="1024" height="1024"/>
+		<rect id="dirt-background" fill="#bb8044" width="100%" height="100%"/>
 		<g id="dirt-particle">
 			<g id="dirt-particle-1" fill="#9f6c39">
 				<rect x="32%" y="72%" width="16%" height="16%" transform="rotate(12)"/>
@@ -57,9 +57,9 @@
 				"grass-particle-3"	#30d475 = hsv(145°, 77%, 83%)
 				"grass-top"			#31d978 = hsv(145°, 77%, 85%)
 		-->
-		<path id="grass-background" fill="#2ecc71" d="M0,0		l0,320		l171,-130	l171,130	l171,-120	l171,120	l170,-120	l170,130	l0,-330"/>
-		<path id="grass-bottom" fill="#28b162" d="M0,255		l171,-100	l171,100	l171,-100	l171,100	l170,-100	l170,100	l0,75		l-170,-130	l-170,120	l-171,-120	l-171,120	l-171,-130	l-171,130"/>
-		<path id="grass-shadow" opacity="0.1" d="M0,320	l171,-130	l171,130	l171,-120	l171,120	l170,-120	l170,130	l0,85		l-170,-170	l-170,170	l-171,-170	l-171,170	l-171,-170	l-171,170"/>
+		<symbol id="grass-top" viewBox="0 0 100 100"> <polygon points="0,0 0,24 16,16 33,24 50,16 66,24 83,16 100,24 100,0"/> </symbol>
+		<symbol id="grass-bottom" viewBox="0 0 100 100"> <polygon points="0,24 0,32 16,24 33,32 50,24 66,32 83,24 100,32 100,24 83,16 66,24 50,16 33,24 16,16"/> </symbol>
+		<use xlink:href="#grass-top" fill="#2ecc71"/>
 		<g id="grass-particle">
 			<g id="grass-particle-1" fill="#2bbb67">
 				<path d="M0,255		l0,-58		l34,38"/>
@@ -75,7 +75,7 @@
 			</g>
 			<path id="grass-particle-3" fill="#30d475" d="M75 32		l75 124		l75 -124"/>
 		</g>
-		<path id="grass-top" fill="#31d978" d="M0,0	l0,32	l1024,0		l0,-32		l-1024,0"/>
+		<use xlink:href="#grass-bottom" fill="#28b162"/>
 	</g>
 	<g id="coal">
 		<!--
