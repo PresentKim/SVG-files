@@ -1,8 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<title>BuoyCompass</title>
-	<circle id="background" fill="#445566" cx="512" cy="512" r="480" stroke="#2e3440" stroke-width="64"/>
-	<path fill="none" stroke="#99FF99" stroke-width="32" stroke-linecap="round" stroke-dasharray="2048, 128"	stroke-dashoffset="1024" d="M 512 32 a 480 480 0 0 1 0 960 a 480 480 0 0 1 0 -960"/>
-	<g id="particle" fill="#99FF99" stroke="#223344" stroke-width="16" stroke-linejoin="round" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!--
+	[Color Info]
+		"background"	nord2 (#4c566a)
+			L stroke	nord0 (#2e3440)
+		"badge"			nord4 (#d8dee9)
+			L stroke	nord1 (#3b4252)
+		"particle"		nord1 (#3b4252)
+		"needle"		nord4 (#d8dee9)
+			L stroke	nord0 (#2e3440)
+	-->
+	<circle id="background" fill="#4c566a" cx="512" cy="512" r="480" stroke="#2e3440" stroke-width="64"/>
+	<rect id="badge" fill="#5e81ac" x="467" y="8" width="90" height="50" rx="30" ry="30" stroke="#3b4252" stroke-width="10"/>
+	<g id="particle" fill="#3b4252" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<defs>
 			<polygon id="pentagon" points="0,-328 42,-358 26,-408 -26,-408 -40,-358"/>
 		</defs>
@@ -15,7 +25,7 @@
 		<use xlink:href="#pentagon" x="512" y="512" transform="rotate(270,512,512)"/>
 		<use xlink:href="#pentagon" x="512" y="512" transform="rotate(315,512,512)"/>
 	</g>
-	<g id="needle" fill="#99FF99" stroke="#223344" stroke-width="16" stroke-linejoin="round">
+	<g id="needle" fill="#d8dee9" stroke="#2e3440" stroke-width="16" stroke-linejoin="round">
 		<polygon id="needle-point" points="740,184 480,480 284,840 544,544"/>
 		<circle id="needle-center" cx="512" cy="512" r="96"/>
 	</g>

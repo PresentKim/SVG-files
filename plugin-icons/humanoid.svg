@@ -1,18 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<title>Humanoid</title>
-	<circle id="background" fill="#445566" cx="512" cy="512" r="480" stroke="#2e3440" stroke-width="64"/>
-	<path fill="none" stroke="#99FF99" stroke-width="32" stroke-linecap="round" stroke-dasharray="2048, 128"	stroke-dashoffset="1024" d="M 512 32 a 480 480 0 0 1 0 960 a 480 480 0 0 1 0 -960"/>
+	<!--
+	[Color Info]
+		"background"	nord0 (#2e3440)
+		"face"			nord4 (#d8dee9)
+		"eye"			nord0 (#2e3440)
+	-->
+	<circle id="background" fill="#2e3440" cx="512" cy="512" r="512"/>
 	<g id="simbol" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<defs>
 			<g id="alien">
 				<path id="face" d="M810 465c0 165-224 345-298 345S214 630 214 465c0-164 133-251 298-251s298 87 298 251z"/>
-				<g id="eye" fill="#223344">
+				<g id="eye" fill="#2e3440">
 					<path d="M549,624 s-37,-186 186,-186 c0,0 19,186 -186,186"/>
 					<path d="M475,624 s37,-186 -186,-186 c0,0 -19,186 186,186"/>
 				</g>
 			</g>
 		</defs>
 		<use xlink:href="#alien" opacity="0.2" y="32"/>
-		<use xlink:href="#alien" fill="#99FF99"/>
+		<use xlink:href="#alien" fill="#d8dee9"/>
 	</g>
 </svg>

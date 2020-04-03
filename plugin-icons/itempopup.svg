@@ -1,7 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
 	<title>ItemPopup</title>
-	<circle id="background" fill="#445566" cx="512" cy="512" r="480" stroke="#2e3440" stroke-width="64"/>
-	<path fill="none" stroke="#99FF99" stroke-width="32" stroke-linecap="round" stroke-dasharray="2048, 128"	stroke-dashoffset="1024" d="M 512 32 a 480 480 0 0 1 0 960 a 480 480 0 0 1 0 -960"/>
+	<!--
+	[Color Info]
+		"background"	nord0 (#2e3440)
+		"tag"			nord4 (#d8dee9)
+	-->
+	<circle id="background" fill="#2e3440" cx="512" cy="512" r="512"/>
 	<g id="simbol" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<defs>
 			<mask id="paper-punch">
@@ -11,6 +15,6 @@
 			<polygon id="tag" stroke-width="16" stroke-linejoin="round" points="772,248 510,250 190,570 460,830 775,515" mask="url(#paper-punch)"/>
 		</defs>
 		<use xlink:href="#tag" stroke="#000" opacity="0.2" y="32"/>
-		<use xlink:href="#tag" fill="#99FF99" stroke="#99FF99"/>
+		<use xlink:href="#tag" fill="#d8dee9" stroke="#d8dee9"/>
 	</g>
 </svg>
